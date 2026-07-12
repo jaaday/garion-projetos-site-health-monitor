@@ -4,7 +4,8 @@
  * Description: Painel de diagnóstico para WordPress — PHP, SSL, plugins/temas desatualizados, cron, disco e banco de dados.
  * Version: 0.1.0
  * Author: Garion Projetos
- * License: GPL-2.0+
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: wp-site-health-monitor
  */
 
