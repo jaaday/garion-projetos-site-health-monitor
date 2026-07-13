@@ -1,4 +1,4 @@
-=== Site Health Monitor ===
+=== Garion Projetos Site Health Monitor ===
 Contributors: garionprojetos
 Tags: health, monitoring, diagnostics, security, maintenance
 Requires at least: 6.0

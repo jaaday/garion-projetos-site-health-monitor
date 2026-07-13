@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Site Health Monitor
+ * Plugin Name: Garion Projetos Site Health Monitor
  * Description: WordPress diagnostics dashboard: PHP, SSL, outdated plugins/themes, cron, disk space and database status.
  * Version: 0.1.0
  * Author: Garion Projetos
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: site-health-monitor
+ * Text Domain: garion-projetos-site-health-monitor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
