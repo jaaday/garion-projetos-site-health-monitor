@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WP Site Health Monitor
- * Description: Painel de diagnóstico para WordPress — PHP, SSL, plugins/temas desatualizados, cron, disco e banco de dados.
+ * Description: Painel de diagnostico para WordPress: PHP, SSL, plugins/temas desatualizados, cron, disco e banco de dados.
  * Version: 0.1.0
  * Author: Garion Projetos
  * License: GPLv2 or later
