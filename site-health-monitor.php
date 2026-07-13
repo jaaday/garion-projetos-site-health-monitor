@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: WP Site Health Monitor
- * Description: Painel de diagnostico para WordPress: PHP, SSL, plugins/temas desatualizados, cron, disco e banco de dados.
+ * Plugin Name: Site Health Monitor
+ * Description: WordPress diagnostics dashboard: PHP, SSL, outdated plugins/themes, cron, disk space and database status.
  * Version: 0.1.0
  * Author: Garion Projetos
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: wp-site-health-monitor
+ * Text Domain: site-health-monitor
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

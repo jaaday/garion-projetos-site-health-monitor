@@ -1,4 +1,4 @@
-# Garion Projetos — WP Site Health Monitor
+# Garion Projetos — Site Health Monitor
 
 Painel WordPress que verifica a saúde geral do site.
 
@@ -25,8 +25,8 @@ Painel WordPress que verifica a saúde geral do site.
 ## Estrutura
 
 ```
-wp-site-health-monitor/
-├── wp-site-health-monitor.php
+site-health-monitor/
+├── site-health-monitor.php
 ├── includes/
 │   └── checks/         # uma classe por verificação
 ├── admin/

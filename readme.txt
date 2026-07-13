@@ -1,51 +1,51 @@
-=== WP Site Health Monitor ===
+=== Site Health Monitor ===
 Contributors: garionprojetos
 Tags: health, monitoring, diagnostics, security, maintenance
 Requires at least: 6.0
-Tested up to: 6.6
+Tested up to: 7.0
 Requires PHP: 8.0
 Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Painel de diagnostico para WordPress: PHP, SSL, plugins/temas desatualizados, cron, disco e banco de dados.
+WordPress diagnostics dashboard: PHP, SSL, outdated plugins/themes, cron, disk space and database status.
 
 == Description ==
 
-WP Site Health Monitor centraliza verificacoes de saude do site em um unico painel:
+Site Health Monitor centralizes site health checks in a single dashboard:
 
-* Versao do WordPress
-* Versao do PHP
-* Certificado SSL
-* Plugins e temas desatualizados
-* Espaco em disco
-* Status dos cron jobs
-* Erros recentes (debug.log)
-* Permissoes de arquivos
-* Status do banco de dados
-* Cache ativo
-* Conexao com servicos externos configurados no site
+* WordPress version
+* PHP version
+* SSL certificate
+* Outdated plugins and themes
+* Disk space
+* Cron job status
+* Recent errors (debug.log)
+* File permissions
+* Database status
+* Active cache
+* Connectivity to services configured on the site
 
-Este plugin nao envia dados para servidores externos. Todas as verificacoes rodam localmente no seu servidor.
+This plugin does not send data to external servers. All checks run locally on your server.
 
 == Installation ==
 
-1. Envie a pasta do plugin para `/wp-content/plugins/`.
-2. Ative o plugin em "Plugins" no painel do WordPress.
-3. Acesse "Ferramentas > WP Site Health Monitor" para ver o painel de diagnostico.
+1. Upload the plugin folder to `/wp-content/plugins/`.
+2. Activate the plugin from the "Plugins" screen.
+3. Go to "Tools > Site Health Monitor" to view the diagnostics dashboard.
 
 == Frequently Asked Questions ==
 
-= Este plugin envia dados para servicos externos? =
+= Does this plugin send data to external services? =
 
-Nao. O diagnostico e feito localmente, consultando apenas o proprio ambiente do site.
+No. Diagnostics run locally, only inspecting the site's own environment.
 
 == Changelog ==
 
 = 0.1.0 =
-* Versao inicial do plugin.
+* Initial release.
 
 == Upgrade Notice ==
 
 = 0.1.0 =
-Versao inicial.
+Initial release.
