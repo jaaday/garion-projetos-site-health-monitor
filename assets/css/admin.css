@@ -1,0 +1,32 @@
+.gpshm-tab-content {
+	margin-top: 20px;
+}
+
+.gpshm-status {
+	font-weight: 600;
+	padding: 2px 8px;
+	border-radius: 3px;
+}
+
+.gpshm-status-ok {
+	color: #1a7e3c;
+}
+
+.gpshm-status-warning {
+	color: #8a6d00;
+}
+
+.gpshm-status-critical {
+	color: #fff;
+	background: #b32d2e;
+}
+
+.gpshm-log {
+	background: #1e1e1e;
+	color: #ddd;
+	padding: 12px;
+	overflow-x: auto;
+	max-height: 400px;
+	overflow-y: auto;
+	font-size: 12px;
+}
