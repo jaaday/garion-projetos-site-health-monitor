@@ -1,25 +1,1299 @@
-.gpshm-tab-content {
-	margin-top: 20px;
+/**
+ * Garion Projetos Site Health Monitor — admin design system.
+ * Scoped entirely under .gpshm-wrap so nothing here leaks into other
+ * plugins' screens or the rest of wp-admin. No bare-tag selectors
+ * (button/table/input/h1/a) anywhere in this file — everything is scoped
+ * under a .gpshm-* class.
+ */
+
+.gpshm-wrap {
+	--gpshm-primary: #ff7b1a;
+	--gpshm-primary-hover: #e0670f;
+	--gpshm-primary-dark: #e0670f;
+	--gpshm-primary-bg: #fff3e9;
+	--gpshm-dark: #0a0a0a;
+	--gpshm-surface: #ffffff;
+	--gpshm-bg: #f0f0f1;
+	--gpshm-border: #dcdcde;
+	--gpshm-border-strong: #c3c4c7;
+	--gpshm-text: #1d2327;
+	--gpshm-text-muted: #646970;
+	--gpshm-success: #007939;
+	--gpshm-success-bg: #edfaef;
+	--gpshm-warning: #8a6100;
+	--gpshm-warning-bg: #fcf5e3;
+	--gpshm-danger: #b32d2e;
+	--gpshm-danger-bg: #fcf0f1;
+	--gpshm-info: #0a5687;
+	--gpshm-info-bg: #f0f6fc;
+	--gpshm-neutral: #50575e;
+	--gpshm-neutral-bg: #f0f0f1;
+	--gpshm-radius-sm: 4px;
+	--gpshm-radius-md: 8px;
+	--gpshm-radius-lg: 12px;
+	--gpshm-radius: var(--gpshm-radius-md);
+	--gpshm-shadow-sm: 0 1px 2px rgba(10, 10, 10, 0.05);
+	--gpshm-shadow: 0 1px 3px rgba(10, 10, 10, 0.08), 0 1px 2px rgba(10, 10, 10, 0.04);
+	--gpshm-space-xs: 4px;
+	--gpshm-space-sm: 8px;
+	--gpshm-space-md: 16px;
+	--gpshm-space-lg: 24px;
+	--gpshm-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	max-width: 1440px;
+	font-family: var(--gpshm-font);
+	color: var(--gpshm-text);
+	font-size: 14px;
+	line-height: 1.5;
 }
 
+.gpshm-wrap *,
+.gpshm-wrap *::before,
+.gpshm-wrap *::after {
+	box-sizing: border-box;
+}
+
+.gpshm-wrap h1,
+.gpshm-wrap h2,
+.gpshm-wrap h3 {
+	font-family: var(--gpshm-font);
+	line-height: 1.4;
+}
+
+.gpshm-panel {
+	margin-top: var(--gpshm-space-lg);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gpshm-space-lg);
+}
+
+/*
+ * Base icon alignment: dashicon glyphs are not perfectly centered within
+ * their own em-box, so pairing one with adjacent text via flex align-items
+ * alone still looks off. Making the icon itself a small flex container
+ * centers the glyph inside its box everywhere .gpshm-icon is used
+ * (buttons, nav, badges, header meta) — contextual rules below still
+ * override the size as needed.
+ */
+.gpshm-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 18px;
+	height: 18px;
+	font-size: 18px;
+	line-height: 1;
+}
+
+/* -------------------------------------------------------------------- */
+/* Header — single compact row: icon, name+desc, status/checked, action */
+/* -------------------------------------------------------------------- */
+
+.gpshm-header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: var(--gpshm-space-md);
+	background: var(--gpshm-dark);
+	color: #f5f5f5;
+	padding: 20px 24px;
+	border-radius: var(--gpshm-radius-lg);
+	margin: var(--gpshm-space-md) 0 0;
+	min-height: 96px;
+}
+
+.gpshm-header__icon {
+	flex: 0 0 auto;
+	width: 44px;
+	height: 44px;
+	border-radius: var(--gpshm-radius-sm);
+	background: var(--gpshm-primary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gpshm-header__icon .dashicons {
+	color: #0a0a0a;
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+}
+
+.gpshm-header__text {
+	flex: 1 1 260px;
+	min-width: 0;
+}
+
+.gpshm-header__title {
+	margin: 0 0 4px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.gpshm-header__version {
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	background: rgba(255, 123, 26, 0.18);
+	color: var(--gpshm-primary);
+	border: 1px solid rgba(255, 123, 26, 0.4);
+	border-radius: 999px;
+	padding: 2px 10px;
+}
+
+.gpshm-header__desc {
+	margin: 0;
+	color: #c3c4c7;
+	font-size: 13px;
+	max-width: 60ch;
+}
+
+.gpshm-header__meta {
+	flex: 0 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: flex-end;
+	color: #d4d4d4;
+	font-size: 12.5px;
+}
+
+.gpshm-header__meta-item {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	white-space: nowrap;
+}
+
+.gpshm-header__checked .gpshm-icon {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+}
+
+.gpshm-header__action {
+	flex: 0 0 auto;
+	display: flex;
+	align-items: center;
+	gap: var(--gpshm-space-sm);
+}
+
+.gpshm-header__run-status {
+	color: #d4d4d4;
+	font-size: 12.5px;
+	font-style: italic;
+}
+
+.gpshm-wrap .gpshm-run-check {
+	min-height: 40px;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.gpshm-wrap .gpshm-run-check .gpshm-icon {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+}
+
+.gpshm-wrap .gpshm-run-check.is-loading .dashicons {
+	animation: gpshm-spin 0.9s linear infinite;
+}
+
+.gpshm-wrap .gpshm-run-check[disabled] {
+	opacity: 0.7;
+	cursor: default;
+}
+
+@keyframes gpshm-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* -------------------------------------------------------------------- */
+/* Navigation — grouped, icon+label+badge, scrollable on narrow screens  */
+/* -------------------------------------------------------------------- */
+
+.gpshm-nav {
+	margin-top: var(--gpshm-space-md);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	gap: var(--gpshm-space-md);
+	overflow-x: auto;
+}
+
+.gpshm-nav__group {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	min-width: 0;
+	padding: 10px 12px 8px;
+	background: var(--gpshm-surface);
+	border: 1px solid var(--gpshm-border);
+	border-radius: var(--gpshm-radius-sm);
+	box-shadow: var(--gpshm-shadow-sm);
+}
+
+.gpshm-nav__group-label {
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--gpshm-text-muted);
+	padding-left: 2px;
+}
+
+.gpshm-nav__links {
+	display: flex;
+	gap: 4px;
+	flex-wrap: nowrap;
+}
+
+.gpshm-nav__link {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	min-height: 40px;
+	padding: 0 12px;
+	border-radius: var(--gpshm-radius-sm);
+	color: var(--gpshm-text);
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 500;
+	white-space: nowrap;
+	background: transparent;
+}
+
+.gpshm-nav__link:hover {
+	background: var(--gpshm-bg);
+	color: var(--gpshm-text);
+}
+
+.gpshm-nav__link .gpshm-icon {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	color: var(--gpshm-text-muted);
+}
+
+.gpshm-nav__link--active {
+	background: var(--gpshm-primary-bg);
+	color: var(--gpshm-primary-dark);
+	font-weight: 600;
+	box-shadow: inset 0 -2px 0 var(--gpshm-primary);
+}
+
+.gpshm-nav__link--active .gpshm-icon {
+	color: var(--gpshm-primary-dark);
+}
+
+.gpshm-nav__link:focus-visible {
+	outline: 2px solid var(--gpshm-primary);
+	outline-offset: -2px;
+}
+
+.gpshm-nav__badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 18px;
+	height: 18px;
+	padding: 0 5px;
+	border-radius: 999px;
+	background: var(--gpshm-danger);
+	color: #fff;
+	font-size: 11px;
+	font-weight: 700;
+}
+
+/* -------------------------------------------------------------------- */
+/* Cards                                                                 */
+/* -------------------------------------------------------------------- */
+
+.gpshm-card {
+	background: var(--gpshm-surface);
+	border: 1px solid var(--gpshm-border);
+	border-radius: var(--gpshm-radius);
+	box-shadow: var(--gpshm-shadow-sm);
+}
+
+.gpshm-card__header {
+	padding: var(--gpshm-space-md) var(--gpshm-space-lg) 0;
+}
+
+.gpshm-card__title {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.gpshm-card__subtitle {
+	margin: 4px 0 0;
+	color: var(--gpshm-text-muted);
+	font-size: 13px;
+}
+
+.gpshm-card__body {
+	padding: var(--gpshm-space-md) var(--gpshm-space-lg) var(--gpshm-space-lg);
+}
+
+.gpshm-card__body > *:first-child {
+	margin-top: 0;
+}
+
+.gpshm-card__body h3 {
+	margin: var(--gpshm-space-lg) 0 var(--gpshm-space-sm);
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.gpshm-card__body h3:first-child {
+	margin-top: 0;
+}
+
+/* -------------------------------------------------------------------- */
+/* Buttons / fields — shared sizing                                     */
+/* -------------------------------------------------------------------- */
+
+.gpshm-wrap .button-primary {
+	background: var(--gpshm-primary);
+	border-color: var(--gpshm-primary-dark);
+	color: #1a1000;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+.gpshm-wrap .button-primary:hover,
+.gpshm-wrap .button-primary:focus {
+	background: var(--gpshm-primary-hover);
+	border-color: var(--gpshm-primary-dark);
+	color: #fff;
+}
+
+.gpshm-wrap .button {
+	min-height: 40px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.gpshm-wrap .button:focus-visible,
+.gpshm-wrap a:focus-visible,
+.gpshm-wrap button:focus-visible,
+.gpshm-wrap input:focus-visible,
+.gpshm-wrap select:focus-visible {
+	outline: 2px solid var(--gpshm-primary);
+	outline-offset: 1px;
+	box-shadow: none;
+}
+
+.gpshm-wrap input[type="search"],
+.gpshm-wrap input[type="number"],
+.gpshm-wrap input[type="text"],
+.gpshm-wrap select {
+	min-height: 40px;
+}
+
+/* -------------------------------------------------------------------- */
+/* Score hero row: ring/value/tier (left) + context (right, no dead space)*/
+/* -------------------------------------------------------------------- */
+
+.gpshm-hero-row {
+	display: grid;
+	grid-template-columns: minmax(220px, 320px) 1fr;
+	gap: var(--gpshm-space-lg);
+	align-items: center;
+}
+
+.gpshm-score-hero {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.gpshm-score-hero__ring {
+	flex: 0 0 auto;
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	border: 6px solid var(--gpshm-neutral);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2px;
+}
+
+.gpshm-score-hero__value {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.gpshm-score-hero__max {
+	font-size: 12px;
+	color: var(--gpshm-text-muted);
+}
+
+.gpshm-score-hero__text {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.gpshm-score-hero__tier {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.gpshm-score-hero--success .gpshm-score-hero__ring { border-color: var(--gpshm-success); }
+.gpshm-score-hero--warning .gpshm-score-hero__ring { border-color: var(--gpshm-warning); }
+.gpshm-score-hero--critical .gpshm-score-hero__ring { border-color: var(--gpshm-danger); }
+.gpshm-score-hero--neutral .gpshm-score-hero__ring { border-color: var(--gpshm-neutral); }
+
+.gpshm-score-context {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding-left: var(--gpshm-space-lg);
+	border-left: 1px solid var(--gpshm-border);
+}
+
+.gpshm-score-context__row {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 13px;
+	color: var(--gpshm-text);
+}
+
+.gpshm-score-context__row .gpshm-icon {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+	color: var(--gpshm-text-muted);
+}
+
+.gpshm-score-context__delta--success { color: var(--gpshm-success); font-weight: 600; }
+.gpshm-score-context__delta--critical { color: var(--gpshm-danger); font-weight: 600; }
+
+.gpshm-score-context__top {
+	font-weight: 600;
+}
+
+.gpshm-score-context__top--ok {
+	color: var(--gpshm-success);
+}
+
+.gpshm-score-context .button {
+	align-self: flex-start;
+	margin-top: 4px;
+}
+
+/* -------------------------------------------------------------------- */
+/* Disclosure ("How is this score calculated?")                         */
+/* -------------------------------------------------------------------- */
+
+.gpshm-disclosure {
+	margin-top: var(--gpshm-space-md);
+	border: 1px solid var(--gpshm-border);
+	border-radius: var(--gpshm-radius-sm);
+	padding: 12px 16px;
+}
+
+.gpshm-disclosure > summary {
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 13px;
+	list-style: none;
+}
+
+.gpshm-disclosure > summary::-webkit-details-marker {
+	display: none;
+}
+
+.gpshm-disclosure > summary::before {
+	content: "\25B8";
+	display: inline-block;
+	margin-right: 6px;
+	transition: transform 0.12s ease;
+}
+
+.gpshm-disclosure[open] > summary::before {
+	transform: rotate(90deg);
+}
+
+.gpshm-disclosure__body {
+	margin-top: 10px;
+	font-size: 13px;
+	color: var(--gpshm-text);
+}
+
+.gpshm-disclosure__body p {
+	margin: 0 0 8px;
+}
+
+.gpshm-disclosure__list {
+	margin: 0 0 8px;
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.gpshm-disclosure__list li {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* -------------------------------------------------------------------- */
+/* Metrics grid                                                          */
+/* -------------------------------------------------------------------- */
+
+.gpshm-metrics {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 12px;
+	margin: var(--gpshm-space-md) 0;
+}
+
+.gpshm-metric {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	background: var(--gpshm-surface);
+	border: 1px solid var(--gpshm-border);
+	border-left: 4px solid var(--gpshm-neutral);
+	border-radius: var(--gpshm-radius-sm);
+	padding: 16px;
+	text-decoration: none;
+	color: var(--gpshm-text);
+	transition: box-shadow 0.12s ease, transform 0.12s ease;
+}
+
+a.gpshm-metric:hover,
+a.gpshm-metric:focus-visible {
+	box-shadow: var(--gpshm-shadow);
+	transform: translateY(-1px);
+	color: var(--gpshm-text);
+}
+
+.gpshm-metric__icon {
+	flex: 0 0 auto;
+	display: flex;
+	margin-top: 2px;
+}
+
+.gpshm-metric__icon .dashicons {
+	font-size: 22px;
+	width: 22px;
+	height: 22px;
+}
+
+.gpshm-metric__body {
+	min-width: 0;
+}
+
+.gpshm-metric__value {
+	display: block;
+	font-size: 28px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.gpshm-metric__label {
+	display: block;
+	margin-top: 2px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.gpshm-metric__context {
+	display: block;
+	margin-top: 4px;
+	color: var(--gpshm-text-muted);
+	font-size: 12.5px;
+}
+
+.gpshm-metric--critical { border-left-color: var(--gpshm-danger); }
+.gpshm-metric--critical .gpshm-metric__icon .dashicons { color: var(--gpshm-danger); }
+
+.gpshm-metric--warning { border-left-color: var(--gpshm-warning); }
+.gpshm-metric--warning .gpshm-metric__icon .dashicons { color: var(--gpshm-warning); }
+
+.gpshm-metric--success { border-left-color: var(--gpshm-success); }
+.gpshm-metric--success .gpshm-metric__icon .dashicons { color: var(--gpshm-success); }
+
+.gpshm-metric--neutral { border-left-color: var(--gpshm-neutral); }
+.gpshm-metric--neutral .gpshm-metric__icon .dashicons { color: var(--gpshm-neutral); }
+
+/* -------------------------------------------------------------------- */
+/* Category summary cards (Overview)                                    */
+/* -------------------------------------------------------------------- */
+
+.gpshm-group-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 12px;
+}
+
+.gpshm-category-card {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	background: var(--gpshm-surface);
+	border: 1px solid var(--gpshm-border);
+	border-top: 4px solid var(--gpshm-neutral);
+	border-radius: var(--gpshm-radius-sm);
+	padding: var(--gpshm-space-md);
+	text-decoration: none;
+	color: var(--gpshm-text);
+	transition: box-shadow 0.12s ease, transform 0.12s ease;
+}
+
+.gpshm-category-card:hover,
+.gpshm-category-card:focus-visible {
+	box-shadow: var(--gpshm-shadow);
+	transform: translateY(-1px);
+	color: var(--gpshm-text);
+}
+
+.gpshm-category-card__head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+}
+
+.gpshm-category-card__label {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.gpshm-category-card__count {
+	font-size: 12.5px;
+	color: var(--gpshm-text-muted);
+}
+
+.gpshm-category-card__top {
+	font-size: 12.5px;
+	font-weight: 600;
+}
+
+.gpshm-category-card__link {
+	margin-top: auto;
+	font-size: 12.5px;
+	font-weight: 600;
+	color: var(--gpshm-primary-dark);
+}
+
+.gpshm-category-card--success { border-top-color: var(--gpshm-success); }
+.gpshm-category-card--warning { border-top-color: var(--gpshm-warning); }
+.gpshm-category-card--critical { border-top-color: var(--gpshm-danger); }
+
+/* -------------------------------------------------------------------- */
+/* Endpoint card                                                        */
+/* -------------------------------------------------------------------- */
+
+.gpshm-endpoint {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gpshm-space-sm);
+}
+
+.gpshm-endpoint__row {
+	display: flex;
+	align-items: center;
+	gap: var(--gpshm-space-sm);
+	flex-wrap: wrap;
+}
+
+.gpshm-endpoint__url {
+	background: var(--gpshm-bg);
+	padding: 6px 10px;
+	border-radius: var(--gpshm-radius-sm);
+	font-size: 12.5px;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.gpshm-endpoint__actions {
+	display: flex;
+	align-items: center;
+	gap: var(--gpshm-space-sm);
+	flex-wrap: wrap;
+}
+
+.gpshm-endpoint__result {
+	font-size: 12.5px;
+	color: var(--gpshm-text-muted);
+}
+
+/* -------------------------------------------------------------------- */
+/* Badges — always icon + label, never color alone                      */
+/* -------------------------------------------------------------------- */
+
+.gpshm-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	padding: 3px 9px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+	white-space: nowrap;
+	border: 1px solid transparent;
+}
+
+.gpshm-badge .gpshm-icon {
+	font-size: 13px;
+	width: 13px;
+	height: 13px;
+}
+
+.gpshm-badge--critical {
+	background: var(--gpshm-danger-bg);
+	color: var(--gpshm-danger);
+	border-color: rgba(179, 45, 46, 0.25);
+}
+
+.gpshm-badge--warning {
+	background: var(--gpshm-warning-bg);
+	color: var(--gpshm-warning);
+	border-color: rgba(138, 97, 0, 0.25);
+}
+
+.gpshm-badge--success {
+	background: var(--gpshm-success-bg);
+	color: var(--gpshm-success);
+	border-color: rgba(0, 121, 57, 0.2);
+}
+
+.gpshm-badge--neutral {
+	background: var(--gpshm-neutral-bg);
+	color: var(--gpshm-neutral);
+	border-color: var(--gpshm-border);
+}
+
+.gpshm-badge--info {
+	background: var(--gpshm-info-bg);
+	color: var(--gpshm-info);
+	border-color: rgba(10, 86, 135, 0.2);
+}
+
+/* Back-compat: keep the plugin's original color-only status classes working
+   for anything still referencing them, redefined on the new tokens. */
 .gpshm-status {
 	font-weight: 600;
 	padding: 2px 8px;
 	border-radius: 3px;
 }
 
-.gpshm-status-ok {
-	color: #1a7e3c;
+.gpshm-status-ok { color: var(--gpshm-success); }
+.gpshm-status-warning { color: var(--gpshm-warning); }
+.gpshm-status-critical { color: #fff; background: var(--gpshm-danger); }
+
+/* -------------------------------------------------------------------- */
+/* Alerts                                                                */
+/* -------------------------------------------------------------------- */
+
+.gpshm-alert {
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+	padding: 12px 14px;
+	border-radius: var(--gpshm-radius-sm);
+	border: 1px solid transparent;
+	margin: 0 0 var(--gpshm-space-md);
+	font-size: 13px;
 }
 
-.gpshm-status-warning {
-	color: #8a6d00;
+.gpshm-alert .gpshm-icon {
+	margin-top: 2px;
+	flex: 0 0 auto;
 }
 
-.gpshm-status-critical {
+.gpshm-alert--info {
+	background: var(--gpshm-info-bg);
+	border-color: rgba(10, 86, 135, 0.2);
+	color: #0a3a58;
+}
+.gpshm-alert--info .gpshm-icon { color: var(--gpshm-info); }
+
+.gpshm-alert--success {
+	background: var(--gpshm-success-bg);
+	border-color: rgba(0, 121, 57, 0.2);
+	color: #0a4b26;
+}
+.gpshm-alert--success .gpshm-icon { color: var(--gpshm-success); }
+
+.gpshm-alert--warning {
+	background: var(--gpshm-warning-bg);
+	border-color: rgba(138, 97, 0, 0.25);
+	color: #5c4200;
+}
+.gpshm-alert--warning .gpshm-icon { color: var(--gpshm-warning); }
+
+.gpshm-alert--danger {
+	background: var(--gpshm-danger-bg);
+	border-color: rgba(179, 45, 46, 0.25);
+	color: #7a1d1e;
+}
+.gpshm-alert--danger .gpshm-icon { color: var(--gpshm-danger); }
+
+/* -------------------------------------------------------------------- */
+/* Empty states                                                          */
+/* -------------------------------------------------------------------- */
+
+.gpshm-empty-state {
+	text-align: center;
+	padding: 36px 20px;
+	color: var(--gpshm-text-muted);
+}
+
+.gpshm-empty-state .gpshm-icon {
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
+	color: var(--gpshm-border-strong);
+	margin-bottom: var(--gpshm-space-sm);
+}
+
+.gpshm-empty-state__title {
+	margin: 0;
+	font-weight: 600;
+	color: var(--gpshm-text);
+}
+
+.gpshm-empty-state__desc {
+	margin: 4px 0 0;
+	font-size: 13px;
+}
+
+.gpshm-empty-row td {
+	border: none !important;
+}
+
+/* -------------------------------------------------------------------- */
+/* Tables — responsive: collapse to stacked cards under 782px            */
+/* -------------------------------------------------------------------- */
+
+.gpshm-table-wrap {
+	overflow-x: auto;
+	border-radius: var(--gpshm-radius-sm);
+}
+
+table.gpshm-table th {
+	font-weight: 600;
+}
+
+table.gpshm-table td,
+table.gpshm-table th {
+	min-height: 48px;
+	vertical-align: middle;
+}
+
+.gpshm-row-toggle {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	color: inherit;
+	font-size: inherit;
+	text-align: left;
+}
+
+.gpshm-row-toggle .gpshm-icon {
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+	color: var(--gpshm-text-muted);
+	transition: transform 0.12s ease;
+}
+
+.gpshm-row-toggle[aria-expanded="true"] .gpshm-icon {
+	transform: rotate(90deg);
+}
+
+.gpshm-detail-row td {
+	background: var(--gpshm-bg);
+	padding: var(--gpshm-space-md) var(--gpshm-space-lg);
+}
+
+.gpshm-detail__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	gap: var(--gpshm-space-sm) var(--gpshm-space-md);
+	margin: 0 0 var(--gpshm-space-md);
+}
+
+.gpshm-detail__item dt {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	color: var(--gpshm-text-muted);
+	margin: 0 0 2px;
+}
+
+.gpshm-detail__item dd {
+	margin: 0;
+	font-weight: 600;
+}
+
+.gpshm-detail__section {
+	margin: 0 0 var(--gpshm-space-sm);
+	font-size: 13px;
+}
+
+.gpshm-detail__recommendation {
+	background: var(--gpshm-primary-bg);
+	border-radius: var(--gpshm-radius-sm);
+	padding: 10px 12px;
+}
+
+.gpshm-detail__state {
+	color: var(--gpshm-text-muted);
+	font-style: italic;
+}
+
+.gpshm-detail__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--gpshm-space-sm);
+	margin-top: var(--gpshm-space-md);
+	padding-top: var(--gpshm-space-md);
+	border-top: 1px solid var(--gpshm-border);
+}
+
+.gpshm-detail__action {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+@media (max-width: 782px) {
+	.gpshm-table-wrap table.gpshm-table thead {
+		position: absolute;
+		left: -9999px;
+		top: -9999px;
+	}
+
+	.gpshm-table-wrap table.gpshm-table,
+	.gpshm-table-wrap table.gpshm-table tbody,
+	.gpshm-table-wrap table.gpshm-table tr,
+	.gpshm-table-wrap table.gpshm-table td {
+		display: block;
+		width: 100%;
+	}
+
+	.gpshm-table-wrap table.gpshm-table tr {
+		border: 1px solid var(--gpshm-border);
+		border-radius: var(--gpshm-radius-sm);
+		margin-bottom: 12px;
+		padding: 8px 12px;
+	}
+
+	.gpshm-table-wrap table.gpshm-table tr.gpshm-empty-row,
+	.gpshm-table-wrap table.gpshm-table tr.gpshm-detail-row {
+		border: none;
+	}
+
+	.gpshm-table-wrap table.gpshm-table td {
+		border: none;
+		padding: 8px 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4px 10px;
+		align-items: center;
+	}
+
+	.gpshm-table-wrap table.gpshm-table td[data-label]::before {
+		content: attr(data-label);
+		flex: 0 0 100%;
+		font-weight: 600;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+		color: var(--gpshm-text-muted);
+	}
+
+	.gpshm-detail-row td {
+		padding: var(--gpshm-space-sm);
+	}
+}
+
+/* -------------------------------------------------------------------- */
+/* Filters / search box / bulk bar / pagination                         */
+/* -------------------------------------------------------------------- */
+
+.gpshm-issues-counters {
+	display: flex;
+	gap: var(--gpshm-space-sm);
+	margin: 0 0 var(--gpshm-space-md);
+}
+
+.gpshm-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--gpshm-space-sm);
+	align-items: center;
+	margin: 0 0 var(--gpshm-space-md);
+	padding: 12px;
+	background: var(--gpshm-bg);
+	border-radius: var(--gpshm-radius-sm);
+}
+
+.gpshm-bulk-bar {
+	display: flex;
+	align-items: center;
+	gap: var(--gpshm-space-sm);
+	margin: 0 0 var(--gpshm-space-md);
+	padding: 10px 12px;
+	background: var(--gpshm-primary-bg);
+	border-radius: var(--gpshm-radius-sm);
+}
+
+.gpshm-bulk-bar__count {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.gpshm-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--gpshm-space-md);
+	margin-top: var(--gpshm-space-md);
+}
+
+.gpshm-pagination__status {
+	font-size: 13px;
+	color: var(--gpshm-text-muted);
+}
+
+/* -------------------------------------------------------------------- */
+/* Tooltips                                                              */
+/* -------------------------------------------------------------------- */
+
+.gpshm-tooltip {
+	position: relative;
+	display: inline-flex;
+	cursor: help;
+	color: var(--gpshm-text-muted);
+	vertical-align: middle;
+}
+
+.gpshm-tooltip .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+.gpshm-tooltip::after {
+	content: attr(data-gpshm-tooltip);
+	position: absolute;
+	bottom: calc(100% + 8px);
+	left: 50%;
+	transform: translateX(-50%);
+	background: var(--gpshm-dark);
 	color: #fff;
-	background: #b32d2e;
+	padding: 6px 10px;
+	border-radius: var(--gpshm-radius-sm);
+	font-size: 12px;
+	font-weight: 400;
+	white-space: normal;
+	width: max-content;
+	max-width: 260px;
+	box-shadow: var(--gpshm-shadow);
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.12s ease;
+	z-index: 10;
 }
+
+.gpshm-tooltip:hover::after,
+.gpshm-tooltip:focus-visible::after,
+.gpshm-tooltip:focus::after {
+	opacity: 1;
+}
+
+/* -------------------------------------------------------------------- */
+/* Modal (JS-driven ignore-reason prompt)                                */
+/* -------------------------------------------------------------------- */
+
+.gpshm-modal-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(10, 10, 10, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100000;
+	padding: 20px;
+}
+
+.gpshm-modal {
+	background: var(--gpshm-surface);
+	border-radius: var(--gpshm-radius);
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+	max-width: 420px;
+	width: 100%;
+	padding: 20px;
+}
+
+.gpshm-modal h2 {
+	margin: 0 0 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.gpshm-modal p {
+	margin: 0 0 var(--gpshm-space-md);
+	color: var(--gpshm-text);
+}
+
+.gpshm-modal textarea {
+	width: 100%;
+	margin-bottom: var(--gpshm-space-md);
+}
+
+.gpshm-modal__actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: var(--gpshm-space-sm);
+}
+
+/* -------------------------------------------------------------------- */
+/* Toast (undo notice)                                                   */
+/* -------------------------------------------------------------------- */
+
+.gpshm-toast {
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	z-index: 100000;
+	background: var(--gpshm-dark);
+	color: #fff;
+	padding: 12px 16px;
+	border-radius: var(--gpshm-radius-sm);
+	box-shadow: var(--gpshm-shadow);
+	display: flex;
+	align-items: center;
+	gap: var(--gpshm-space-md);
+	font-size: 13px;
+}
+
+.gpshm-toast__action {
+	background: none;
+	border: none;
+	color: var(--gpshm-primary);
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0;
+}
+
+/* -------------------------------------------------------------------- */
+/* Skeleton loader                                                       */
+/* -------------------------------------------------------------------- */
+
+.gpshm-skeleton {
+	position: relative;
+	overflow: hidden;
+	background: var(--gpshm-bg);
+	border-radius: var(--gpshm-radius-sm);
+}
+
+.gpshm-skeleton::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+	animation: gpshm-shimmer 1.2s infinite;
+}
+
+@keyframes gpshm-shimmer {
+	from { transform: translateX(-100%); }
+	to { transform: translateX(100%); }
+}
+
+/* -------------------------------------------------------------------- */
+/* Settings                                                              */
+/* -------------------------------------------------------------------- */
+
+.gpshm-settings-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: var(--gpshm-space-md) var(--gpshm-space-lg);
+	max-width: 720px;
+}
+
+.gpshm-field {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.gpshm-field__label {
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.gpshm-field__control {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.gpshm-field__unit {
+	color: var(--gpshm-text-muted);
+	font-size: 13px;
+}
+
+.gpshm-field__desc {
+	margin: 0;
+	color: var(--gpshm-text-muted);
+	font-size: 12.5px;
+}
+
+.gpshm-settings-actionbar {
+	position: sticky;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	gap: var(--gpshm-space-md);
+	padding: 12px 16px;
+	background: var(--gpshm-surface);
+	border: 1px solid var(--gpshm-border);
+	border-radius: var(--gpshm-radius-sm);
+	box-shadow: var(--gpshm-shadow);
+	max-width: 720px;
+}
+
+.gpshm-settings-actionbar__status {
+	font-size: 13px;
+	color: var(--gpshm-text-muted);
+	flex: 1 1 auto;
+}
+
+/* -------------------------------------------------------------------- */
+/* Log viewer                                                            */
+/* -------------------------------------------------------------------- */
 
 .gpshm-log {
 	background: #1e1e1e;
@@ -29,4 +1303,120 @@
 	max-height: 400px;
 	overflow-y: auto;
 	font-size: 12px;
+	border-radius: var(--gpshm-radius-sm);
+	font-family: Consolas, Monaco, monospace;
+}
+
+/* -------------------------------------------------------------------- */
+/* Responsive — 1440/1280/1024/782/600/375                              */
+/* -------------------------------------------------------------------- */
+
+@media (max-width: 1280px) {
+	.gpshm-metrics,
+	.gpshm-group-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 1024px) {
+	.gpshm-hero-row {
+		grid-template-columns: 1fr;
+	}
+
+	.gpshm-score-context {
+		border-left: none;
+		border-top: 1px solid var(--gpshm-border);
+		padding-left: 0;
+		padding-top: var(--gpshm-space-md);
+	}
+
+	.gpshm-settings-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 782px) {
+	.gpshm-header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.gpshm-header__meta {
+		align-items: flex-start;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.gpshm-header__action {
+		width: 100%;
+	}
+
+	.gpshm-wrap .gpshm-run-check {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.gpshm-nav {
+		flex-wrap: nowrap;
+	}
+
+	.gpshm-filters {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.gpshm-filters input,
+	.gpshm-filters select,
+	.gpshm-filters .button {
+		width: 100%;
+	}
+
+	.gpshm-metrics,
+	.gpshm-group-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.gpshm-settings-actionbar {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}
+
+@media (max-width: 600px) {
+	.gpshm-header__title {
+		font-size: 20px;
+	}
+
+	.gpshm-score-hero {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+@media (max-width: 375px) {
+	.gpshm-card__body,
+	.gpshm-card__header {
+		padding-left: var(--gpshm-space-md);
+		padding-right: var(--gpshm-space-md);
+	}
+
+	.gpshm-detail__grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* -------------------------------------------------------------------- */
+/* Screen-reader text fallback (in case a very old core omits the class) */
+/* -------------------------------------------------------------------- */
+
+.gpshm-wrap .screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
 }

@@ -1,0 +1,1115 @@
+# Translation of Garion Projetos Site Health Monitor in zh_CN
+# This file is distributed under the same license as the Garion Projetos Site Health Monitor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Garion Projetos Site Health Monitor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-23 22:37+0000\n"
+"PO-Revision-Date: 2026-07-23 22:37+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: garion-projetos-site-health-monitor\n"
+
+#: admin/class-gpshm-admin-page.php:108
+#: admin/class-gpshm-admin-page.php:897
+msgid "Monitoring"
+msgstr "监控"
+
+#: admin/class-gpshm-admin-page.php:113
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: admin/class-gpshm-admin-page.php:119
+msgid "System"
+msgstr "系统"
+
+#: admin/class-gpshm-admin-page.php:273
+msgid "Run check now"
+msgstr "立即运行检测"
+
+#: admin/class-gpshm-admin-page.php:28
+#: admin/class-gpshm-admin-page.php:285
+msgid "Garion Projetos Site Health Monitor"
+msgstr "Garion Projetos Site Health Monitor"
+
+#: admin/class-gpshm-admin-page.php:287
+msgid "WordPress diagnostics dashboard: PHP, SSL, outdated plugins/themes, cron, disk space, database and connectivity status."
+msgstr "WordPress 诊断面板：PHP、SSL、过时的插件/主题、计划任务、磁盘空间、数据库和连接状态。"
+
+#: admin/class-gpshm-admin-page.php:29
+msgid "Site Health Monitor"
+msgstr "Site Health Monitor"
+
+#: admin/class-gpshm-admin-page.php:296
+msgid "Unavailable"
+msgstr "不可用"
+
+#: admin/class-gpshm-admin-page.php:299
+msgid "Excellent"
+msgstr "优秀"
+
+#: admin/class-gpshm-admin-page.php:302
+msgid "Healthy"
+msgstr "健康"
+
+#: admin/class-gpshm-admin-page.php:305
+msgid "Needs attention"
+msgstr "需要关注"
+
+#: admin/class-gpshm-admin-page.php:308
+#: admin/class-gpshm-admin-page.php:777
+#: admin/class-gpshm-admin-page.php:701
+#: admin/class-gpshm-admin-page.php:788
+msgid "Critical"
+msgstr "严重"
+
+#: admin/class-gpshm-admin-page.php:388
+msgid "Critical problems"
+msgstr "严重问题"
+
+#: admin/class-gpshm-admin-page.php:392
+msgid "%1$d of %2$d checks need immediate attention"
+msgstr "%2$d 项检测中有 %1$d 项需要立即处理"
+
+#: admin/class-gpshm-admin-page.php:393
+msgid "No critical problems found"
+msgstr "未发现严重问题"
+
+#: admin/class-gpshm-admin-page.php:398
+#: admin/class-gpshm-admin-page.php:776
+#: admin/class-gpshm-admin-page.php:787
+msgid "Warnings"
+msgstr "警告"
+
+#: admin/class-gpshm-admin-page.php:403
+msgid "%d checks reporting a warning"
+msgstr "%d 项检测报告了警告"
+
+#: admin/class-gpshm-admin-page.php:404
+msgid "No warnings found"
+msgstr "未发现警告"
+
+#: admin/class-gpshm-admin-page.php:409
+msgid "Healthy checks"
+msgstr "正常检测项"
+
+#: admin/class-gpshm-admin-page.php:412
+msgid "%1$d of %2$d checks passing"
+msgstr "%2$d 项检测中有 %1$d 项通过"
+
+#: admin/class-gpshm-admin-page.php:416
+msgid "Ignored"
+msgstr "已忽略"
+
+#: admin/class-gpshm-admin-page.php:420
+msgid "Excluded from the score until reopened"
+msgstr "在重新开启前不计入评分"
+
+#: admin/class-gpshm-admin-page.php:421
+msgid "Nothing is currently ignored"
+msgstr "当前没有被忽略的项目"
+
+#: admin/class-gpshm-admin-page.php:510
+msgid "Active in %1$d of the last %2$d recorded run."
+msgid_plural "Active in %1$d of the last %2$d recorded runs."
+msgstr[0] "在最近 %2$d 次记录的检测中，有 %1$d 次处于活动状态。"
+
+#: admin/class-gpshm-admin-page.php:524
+msgid "Nothing to show here."
+msgstr "这里没有内容可显示。"
+
+#: admin/class-gpshm-admin-page.php:530
+#: admin/class-gpshm-admin-page.php:568
+msgid "Select"
+msgstr "选择"
+
+#: admin/class-gpshm-admin-page.php:532
+#: admin/class-gpshm-admin-page.php:572
+msgid "Check"
+msgstr "检测项"
+
+#: admin/class-gpshm-admin-page.php:533
+#: admin/class-gpshm-admin-page.php:578
+msgid "Current result"
+msgstr "当前结果"
+
+#: admin/class-gpshm-admin-page.php:534
+#: admin/class-gpshm-admin-page.php:579
+#: admin/class-gpshm-admin-ui.php:448
+msgid "Severity"
+msgstr "严重程度"
+
+#: admin/class-gpshm-admin-page.php:535
+#: admin/class-gpshm-admin-page.php:593
+#: admin/class-gpshm-admin-ui.php:452
+msgid "Last checked"
+msgstr "最近检测时间"
+
+#: admin/class-gpshm-admin-page.php:536
+#: admin/class-gpshm-admin-page.php:594
+#: admin/class-gpshm-admin-ui.php:420
+msgid "Actions"
+msgstr "操作"
+
+#: admin/class-gpshm-admin-page.php:54
+msgid "Running checks..."
+msgstr "正在运行检测..."
+
+#: admin/class-gpshm-admin-page.php:55
+msgid "Check completed."
+msgstr "检测已完成。"
+
+#: admin/class-gpshm-admin-page.php:56
+msgid "The check could not be completed."
+msgstr "无法完成检测。"
+
+#: admin/class-gpshm-admin-page.php:569
+msgid "Select %s"
+msgstr "选择 %s"
+
+#: admin/class-gpshm-admin-page.php:57
+msgid "Ignore this check"
+msgstr "忽略此检测项"
+
+#: admin/class-gpshm-admin-page.php:58
+msgid "This check will stop counting toward the health score and the Problems list until you reopen it. Optionally add a reason below."
+msgstr "此检测项将不再计入健康评分和问题列表，直到您重新开启为止。您也可以在下方填写原因。"
+
+#: admin/class-gpshm-admin-page.php:582
+msgid "Reopened"
+msgstr "已重新开启"
+
+#: admin/class-gpshm-admin-page.php:585
+msgid "New"
+msgstr "新出现"
+
+#: admin/class-gpshm-admin-page.php:587
+msgid "Recurring"
+msgstr "重复出现"
+
+#: admin/class-gpshm-admin-page.php:59
+msgid "Confirm"
+msgstr "确认"
+
+#: admin/class-gpshm-admin-page.php:60
+msgid "Cancel"
+msgstr "取消"
+
+#: admin/class-gpshm-admin-page.php:61
+msgid "Check ignored."
+msgstr "已忽略该检测项。"
+
+#: admin/class-gpshm-admin-page.php:617
+msgid "Ignored on %1$s — reason: %2$s"
+msgstr "于 %1$s 忽略 — 原因：%2$s"
+
+#: admin/class-gpshm-admin-page.php:618
+msgid "Ignored on %s, with no reason given."
+msgstr "于 %s 忽略，未提供原因。"
+
+#: admin/class-gpshm-admin-page.php:62
+msgid "Check reopened."
+msgstr "已重新开启该检测项。"
+
+#: admin/class-gpshm-admin-page.php:622
+msgid "Reopened on %s."
+msgstr "于 %s 重新开启。"
+
+#: admin/class-gpshm-admin-page.php:63
+msgid "Undo"
+msgstr "撤销"
+
+#: admin/class-gpshm-admin-page.php:632
+#: admin/class-gpshm-admin-ui.php:193
+msgid "View details"
+msgstr "查看详情"
+
+#: admin/class-gpshm-admin-page.php:639
+msgid "View recommendation"
+msgstr "查看建议"
+
+#: admin/class-gpshm-admin-page.php:64
+msgid "Technical data copied to clipboard."
+msgstr "技术数据已复制到剪贴板。"
+
+#: admin/class-gpshm-admin-page.php:646
+msgid "Run this check again"
+msgstr "重新运行此检测"
+
+#: admin/class-gpshm-admin-page.php:65
+msgid "Could not copy to clipboard."
+msgstr "无法复制到剪贴板。"
+
+#: admin/class-gpshm-admin-page.php:652
+msgid "Copy technical data"
+msgstr "复制技术数据"
+
+#: admin/class-gpshm-admin-page.php:66
+msgid "Testing..."
+msgstr "测试中..."
+
+#: admin/class-gpshm-admin-page.php:660
+msgid "Reopen"
+msgstr "重新开启"
+
+#: admin/class-gpshm-admin-page.php:666
+msgid "Ignore temporarily"
+msgstr "暂时忽略"
+
+#: admin/class-gpshm-admin-page.php:67
+msgid "Reachable — responded with a valid status."
+msgstr "可访问 — 返回了有效状态。"
+
+#: admin/class-gpshm-admin-page.php:68
+msgid "Could not reach the endpoint."
+msgstr "无法访问该接口。"
+
+#: admin/class-gpshm-admin-page.php:686
+msgid "Every check currently reporting a warning or critical status, across all areas — search, filter, sort and act on them here."
+msgstr "所有区域中当前报告警告或严重状态的检测项 — 在此搜索、筛选、排序并进行处理。"
+
+#: admin/class-gpshm-admin-page.php:69
+#: admin/class-gpshm-admin-page.php:746
+msgid "No problems match the current filters."
+msgstr "没有问题符合当前的筛选条件。"
+
+#: admin/class-gpshm-admin-page.php:690
+msgid "%d critical"
+msgid_plural "%d critical"
+msgstr[0] "%d 项严重"
+
+#: admin/class-gpshm-admin-page.php:691
+msgid "%d warning"
+msgid_plural "%d warnings"
+msgstr[0] "%d 项警告"
+
+#: admin/class-gpshm-admin-page.php:695
+msgid "Search problems"
+msgstr "搜索问题"
+
+#: admin/class-gpshm-admin-page.php:696
+msgid "Search problems..."
+msgstr "搜索问题..."
+
+#: admin/class-gpshm-admin-page.php:698
+msgid "Filter by severity"
+msgstr "按严重程度筛选"
+
+#: admin/class-gpshm-admin-page.php:70
+msgid "Ignore all selected checks?"
+msgstr "忽略所有已选中的检测项？"
+
+#: admin/class-gpshm-admin-page.php:700
+msgid "All severities"
+msgstr "所有严重程度"
+
+#: admin/class-gpshm-admin-page.php:702
+msgid "Warning"
+msgstr "警告"
+
+#: admin/class-gpshm-admin-page.php:705
+msgid "Filter by category"
+msgstr "按分类筛选"
+
+#: admin/class-gpshm-admin-page.php:707
+msgid "All categories"
+msgstr "所有分类"
+
+#: admin/class-gpshm-admin-page.php:71
+msgid "Reopen all selected checks?"
+msgstr "重新开启所有已选中的检测项？"
+
+#: admin/class-gpshm-admin-page.php:714
+msgid "Filter by status"
+msgstr "按状态筛选"
+
+#: admin/class-gpshm-admin-page.php:716
+msgid "Active and ignored"
+msgstr "活动与已忽略"
+
+#: admin/class-gpshm-admin-page.php:717
+msgid "Active only"
+msgstr "仅活动项"
+
+#: admin/class-gpshm-admin-page.php:718
+msgid "Ignored only"
+msgstr "仅已忽略项"
+
+#: admin/class-gpshm-admin-page.php:72
+msgid "%d selected"
+msgstr "已选择 %d 项"
+
+#: admin/class-gpshm-admin-page.php:721
+msgid "Filter by period"
+msgstr "按时间段筛选"
+
+#: admin/class-gpshm-admin-page.php:723
+msgid "Any time"
+msgstr "任何时间"
+
+#: admin/class-gpshm-admin-page.php:724
+msgid "Last 24 hours"
+msgstr "最近 24 小时"
+
+#: admin/class-gpshm-admin-page.php:725
+msgid "Last 7 days"
+msgstr "最近 7 天"
+
+#: admin/class-gpshm-admin-page.php:726
+msgid "Last 30 days"
+msgstr "最近 30 天"
+
+#: admin/class-gpshm-admin-page.php:729
+msgid "Sort by"
+msgstr "排序方式"
+
+#: admin/class-gpshm-admin-page.php:73
+msgid "Saving..."
+msgstr "正在保存..."
+
+#: admin/class-gpshm-admin-page.php:731
+msgid "Sort by priority"
+msgstr "按优先级排序"
+
+#: admin/class-gpshm-admin-page.php:732
+msgid "Sort by detection date"
+msgstr "按检测日期排序"
+
+#: admin/class-gpshm-admin-page.php:735
+msgid "Clear filters"
+msgstr "清除筛选"
+
+#: admin/class-gpshm-admin-page.php:74
+msgid "You have unsaved changes."
+msgstr "您有尚未保存的更改。"
+
+#: admin/class-gpshm-admin-page.php:740
+msgid "Ignore selected"
+msgstr "忽略所选"
+
+#: admin/class-gpshm-admin-page.php:741
+msgid "Reopen selected"
+msgstr "重新开启所选"
+
+#: admin/class-gpshm-admin-page.php:75
+msgid "Page %1$d of %2$d"
+msgstr "第 %1$d 页，共 %2$d 页"
+
+#: admin/class-gpshm-admin-page.php:751
+msgid "No problems found."
+msgstr "未发现问题。"
+
+#: admin/class-gpshm-admin-page.php:751
+msgid "Every check is currently reporting a healthy status."
+msgstr "所有检测项当前均报告健康状态。"
+
+#: admin/class-gpshm-admin-page.php:762
+msgid "A run is recorded here whenever the overall status changes, or at most once every 15 minutes."
+msgstr "每当总体状态发生变化时，或最多每 15 分钟，都会在此记录一次检测结果。"
+
+#: admin/class-gpshm-admin-page.php:766
+msgid "No history yet."
+msgstr "尚无历史记录。"
+
+#: admin/class-gpshm-admin-page.php:767
+msgid "History starts recording from the next check — either a normal page load, \"Run check now\", or an automatic background check if enabled in Settings."
+msgstr "历史记录将从下一次检测开始 —— 无论是正常加载页面、点击“立即运行检测”，还是（如在设置中启用）自动的后台检测。"
+
+#: admin/class-gpshm-admin-page.php:772
+#: admin/class-gpshm-admin-page.php:783
+msgid "Date"
+msgstr "日期"
+
+#: admin/class-gpshm-admin-page.php:773
+#: admin/class-gpshm-admin-page.php:784
+msgid "Status"
+msgstr "状态"
+
+#: admin/class-gpshm-admin-page.php:774
+#: admin/class-gpshm-admin-page.php:785
+msgid "Score"
+msgstr "评分"
+
+#: admin/class-gpshm-admin-page.php:775
+#: admin/class-gpshm-admin-page.php:786
+msgid "OK"
+msgstr "正常"
+
+#: admin/class-gpshm-admin-page.php:812
+#: includes/class-gpshm-checks.php:334
+#: includes/class-gpshm-checks.php:342
+msgid "Recent PHP errors"
+msgstr "近期 PHP 错误"
+
+#: admin/class-gpshm-admin-page.php:817
+msgid "Recent debug.log entries"
+msgstr "近期 debug.log 记录"
+
+#: admin/class-gpshm-admin-page.php:819
+msgid "No log entries to show."
+msgstr "没有日志记录可显示。"
+
+#: admin/class-gpshm-admin-page.php:819
+msgid "Either debug.log does not exist, or WP_DEBUG_LOG is not enabled."
+msgstr "debug.log 不存在，或未启用 WP_DEBUG_LOG。"
+
+#: admin/class-gpshm-admin-page.php:842
+msgid "Checks"
+msgstr "检测项"
+
+#: admin/class-gpshm-admin-page.php:842
+msgid "Thresholds used by the automated checks."
+msgstr "自动检测所使用的阈值。"
+
+#: admin/class-gpshm-admin-page.php:848
+msgid "Warn when SSL certificate expires within"
+msgstr "当 SSL 证书将在以下天数内到期时发出警告："
+
+#: admin/class-gpshm-admin-page.php:851
+msgid "days"
+msgstr "天"
+
+#: admin/class-gpshm-admin-page.php:854
+msgid "Default: %d days."
+msgstr "默认值：%d 天。"
+
+#: admin/class-gpshm-admin-page.php:860
+msgid "Warn when free disk space is below"
+msgstr "当可用磁盘空间低于以下值时发出警告："
+
+#: admin/class-gpshm-admin-page.php:863
+msgid "MB"
+msgstr "MB"
+
+#: admin/class-gpshm-admin-page.php:866
+msgid "Default: %d MB."
+msgstr "默认值：%d MB。"
+
+#: admin/class-gpshm-admin-page.php:872
+msgid "Warn when a scheduled cron event is overdue by"
+msgstr "当计划任务事件延迟超过以下分钟数时发出警告："
+
+#: admin/class-gpshm-admin-page.php:875
+msgid "minutes"
+msgstr "分钟"
+
+#: admin/class-gpshm-admin-page.php:878
+msgid "Default: %d minutes."
+msgstr "默认值：%d 分钟。"
+
+#: admin/class-gpshm-admin-page.php:884
+msgid "History entries to keep"
+msgstr "保留的历史记录数量"
+
+#: admin/class-gpshm-admin-page.php:887
+msgid "entries"
+msgstr "条"
+
+#: admin/class-gpshm-admin-page.php:89
+msgid "Overview"
+msgstr "概览"
+
+#: admin/class-gpshm-admin-page.php:890
+msgid "Between 5 and 50 entries."
+msgstr "介于 5 到 50 条之间。"
+
+#: admin/class-gpshm-admin-page.php:897
+msgid "Optional background checks via WP-Cron, independent of anyone loading this page."
+msgstr "通过 WP-Cron 进行的可选后台检测，无需任何人打开此页面。"
+
+#: admin/class-gpshm-admin-page.php:90
+#: admin/class-gpshm-admin-page.php:685
+msgid "Problems"
+msgstr "问题"
+
+#: admin/class-gpshm-admin-page.php:903
+msgid "Automatic monitoring"
+msgstr "自动监控"
+
+#: admin/class-gpshm-admin-page.php:907
+msgid "When enabled, checks also run in the background on the schedule below and are recorded to History."
+msgstr "启用后，检测也会按以下计划在后台运行，并记录到历史记录中。"
+
+#: admin/class-gpshm-admin-page.php:91
+#: admin/class-gpshm-admin-page.php:762
+msgid "History"
+msgstr "历史记录"
+
+#: admin/class-gpshm-admin-page.php:913
+msgid "Check frequency"
+msgstr "检测频率"
+
+#: admin/class-gpshm-admin-page.php:918
+msgid "How often the background check runs when automatic monitoring is enabled above."
+msgstr "启用上方的自动监控后，后台检测的运行频率。"
+
+#: admin/class-gpshm-admin-page.php:92
+#: admin/class-gpshm-admin-page.php:195
+msgid "WordPress"
+msgstr "WordPress"
+
+#: admin/class-gpshm-admin-page.php:927
+msgid "Restore defaults"
+msgstr "恢复默认值"
+
+#: admin/class-gpshm-admin-page.php:928
+msgid "Save changes"
+msgstr "保存更改"
+
+#: admin/class-gpshm-admin-page.php:93
+#: admin/class-gpshm-admin-page.php:196
+msgid "Security"
+msgstr "安全"
+
+#: admin/class-gpshm-admin-page.php:94
+#: admin/class-gpshm-admin-page.php:197
+msgid "Performance"
+msgstr "性能"
+
+#: admin/class-gpshm-admin-page.php:95
+#: admin/class-gpshm-admin-page.php:198
+msgid "Server"
+msgstr "服务器"
+
+#: admin/class-gpshm-admin-page.php:96
+#: admin/class-gpshm-admin-page.php:809
+#: admin/class-gpshm-admin-page.php:711
+msgid "Logs"
+msgstr "日志"
+
+#: admin/class-gpshm-admin-page.php:97
+msgid "Settings"
+msgstr "设置"
+
+#: admin/class-gpshm-admin-ui.php:116
+msgid "Site Health Monitor sections"
+msgstr "Site Health Monitor 各分区"
+
+#: admin/class-gpshm-admin-ui.php:184
+msgid "%1$d of %2$d checks need attention"
+msgstr "%2$d 项检测中有 %1$d 项需要关注"
+
+#: admin/class-gpshm-admin-ui.php:185
+msgid "All %d checks passing"
+msgstr "全部 %d 项检测均已通过"
+
+#: admin/class-gpshm-admin-ui.php:224
+msgid "Last checked: %s"
+msgstr "最近检测：%s"
+
+#: admin/class-gpshm-admin-ui.php:231
+msgid "Same score as the last recorded check"
+msgstr "与上次记录的评分相同"
+
+#: admin/class-gpshm-admin-ui.php:235
+msgid "+%d points since the last recorded check"
+msgstr "自上次记录的检测以来 +%d 分"
+
+#: admin/class-gpshm-admin-ui.php:239
+msgid "%d points since the last recorded check"
+msgstr "自上次记录的检测以来 %d 分"
+
+#: admin/class-gpshm-admin-ui.php:244
+msgid "First recorded check — no previous score to compare yet."
+msgstr "这是首次记录的检测 —— 尚无先前的评分可供比较。"
+
+#: admin/class-gpshm-admin-ui.php:250
+msgid "%d check performed"
+msgid_plural "%d checks performed"
+msgstr[0] "已执行 %d 次检测"
+
+#: admin/class-gpshm-admin-ui.php:259
+msgid "Top problem: %s"
+msgstr "主要问题：%s"
+
+#: admin/class-gpshm-admin-ui.php:267
+msgid "View critical problems"
+msgstr "查看严重问题"
+
+#: admin/class-gpshm-admin-ui.php:271
+msgid "No active problems right now."
+msgstr "目前没有活动的问题。"
+
+#: admin/class-gpshm-admin-ui.php:284
+msgid "How is this score calculated?"
+msgstr "此评分是如何计算的？"
+
+#: admin/class-gpshm-admin-ui.php:287
+msgid "This score is based on %d checks run at the time shown below."
+msgstr "此评分基于下方所示时间运行的 %d 项检测。"
+
+#: admin/class-gpshm-admin-ui.php:293
+msgid "Each warning subtracts %1$d points; each critical problem subtracts %2$d points. Any critical problem caps the score at 49; any warning caps it at 89."
+msgstr "每个警告扣除 %1$d 分；每个严重问题扣除 %2$d 分。只要存在严重问题，评分上限为 49 分；只要存在警告，评分上限为 89 分。"
+
+#: admin/class-gpshm-admin-ui.php:301
+msgid "Problems currently reducing the score:"
+msgstr "当前正在降低评分的问题："
+
+#: admin/class-gpshm-admin-ui.php:307
+msgid "No problems are currently reducing the score."
+msgstr "当前没有问题在降低评分。"
+
+#: admin/class-gpshm-admin-ui.php:311
+msgid "%d ignored check is excluded from this calculation."
+msgid_plural "%d ignored checks are excluded from this calculation."
+msgstr[0] "有 %d 项已忽略的检测未计入此次计算。"
+
+#: admin/class-gpshm-admin-ui.php:314
+msgid "Calculated as of: %s"
+msgstr "计算时间：%s"
+
+#: admin/class-gpshm-admin-ui.php:447
+msgid "Current value"
+msgstr "当前值"
+
+#: admin/class-gpshm-admin-ui.php:449
+msgid "Category"
+msgstr "分类"
+
+#: admin/class-gpshm-admin-ui.php:450
+msgid "Technical key"
+msgstr "技术标识符"
+
+#: admin/class-gpshm-admin-ui.php:457
+msgid "What this check means"
+msgstr "此检测项的含义"
+
+#: admin/class-gpshm-admin-ui.php:460
+msgid "Likely cause"
+msgstr "可能的原因"
+
+#: admin/class-gpshm-admin-ui.php:463
+msgid "Recommendation"
+msgstr "建议"
+
+#: admin/class-gpshm-admin-ui.php:466
+msgid "Likely fix location"
+msgstr "可能的修复位置"
+
+#: admin/class-gpshm-admin-ui.php:472
+msgid "Recent history"
+msgstr "近期历史"
+
+#: admin/class-gpshm-admin-ui.php:495
+msgid "Previous"
+msgstr "上一页"
+
+#: admin/class-gpshm-admin-ui.php:496
+msgid "Next"
+msgstr "下一页"
+
+#: admin/class-gpshm-admin-ui.php:564
+msgid "Monitoring endpoint"
+msgstr "监控接口"
+
+#: admin/class-gpshm-admin-ui.php:568
+#: includes/class-gpshm-checks.php:199
+#: includes/class-gpshm-checks.php:431
+msgid "Active"
+msgstr "已启用"
+
+#: admin/class-gpshm-admin-ui.php:572
+msgid "Copy URL"
+msgstr "复制网址"
+
+#: admin/class-gpshm-admin-ui.php:573
+msgid "Test endpoint"
+msgstr "测试接口"
+
+#: admin/class-gpshm-admin-ui.php:576
+msgid "This URL is public and unauthenticated by design — it only ever returns an overall ok/warning/critical status, never the detailed report, so it is safe to give to external uptime monitoring services."
+msgstr "此网址在设计上是公开且无需身份验证的 —— 它始终只返回整体的 ok/warning/critical 状态，从不返回详细报告，因此可以放心地提供给外部的正常运行时间监控服务。"
+
+#: includes/class-gpshm-check-docs.php:101
+msgid "Whether the server can make outgoing HTTP requests to api.wordpress.org (used for core/plugin/theme update checks)."
+msgstr "服务器是否可以向 api.wordpress.org 发出出站 HTTP 请求（用于核心/插件/主题更新检测）。"
+
+#: includes/class-gpshm-check-docs.php:102
+msgid "A server or network firewall is blocking outbound HTTP(S) requests."
+msgstr "服务器或网络防火墙正在阻止出站 HTTP(S) 请求。"
+
+#: includes/class-gpshm-check-docs.php:103
+msgid "Ask your hosting provider to allow outbound HTTPS requests to wordpress.org domains; without it, update checks cannot run."
+msgstr "请您的主机服务商允许对 wordpress.org 域名的出站 HTTPS 请求；否则更新检测将无法运行。"
+
+#: includes/class-gpshm-check-docs.php:104
+msgid "Hosting control panel > Firewall / Outbound rules"
+msgstr "主机控制面板 > 防火墙 / 出站规则"
+
+#: includes/class-gpshm-check-docs.php:23
+msgid "Whether WordPress core is on the latest available version."
+msgstr "WordPress 核心是否为最新可用版本。"
+
+#: includes/class-gpshm-check-docs.php:24
+msgid "Automatic background updates are disabled, or a major update requires manual confirmation."
+msgstr "自动后台更新已被禁用，或某个重大更新需要手动确认。"
+
+#: includes/class-gpshm-check-docs.php:25
+msgid "Update WordPress from the Dashboard > Updates screen as soon as possible."
+msgstr "请尽快在“仪表盘 > 更新”页面更新 WordPress。"
+
+#: includes/class-gpshm-check-docs.php:26
+msgid "wp-admin > Dashboard > Updates"
+msgstr "wp-admin > 仪表盘 > 更新"
+
+#: includes/class-gpshm-check-docs.php:29
+msgid "Whether the server runs a PHP version still receiving security support."
+msgstr "服务器运行的 PHP 版本是否仍在获得安全支持。"
+
+#: includes/class-gpshm-check-docs.php:30
+msgid "The hosting plan has not been upgraded to a newer PHP version."
+msgstr "主机套餐尚未升级到更新的 PHP 版本。"
+
+#: includes/class-gpshm-check-docs.php:31
+msgid "Ask your hosting provider to upgrade PHP, then test the site on a staging copy before switching production."
+msgstr "请主机服务商升级 PHP，并在切换到生产环境之前先在暂存副本上测试站点。"
+
+#: includes/class-gpshm-check-docs.php:32
+msgid "Hosting control panel > PHP version"
+msgstr "主机控制面板 > PHP 版本"
+
+#: includes/class-gpshm-check-docs.php:35
+msgid "Whether the current request reached the site over HTTPS."
+msgstr "当前请求是否通过 HTTPS 访问该站点。"
+
+#: includes/class-gpshm-check-docs.php:36
+msgid "No SSL certificate is installed, or the site is not forcing HTTPS redirects."
+msgstr "未安装 SSL 证书，或站点未强制跳转到 HTTPS。"
+
+#: includes/class-gpshm-check-docs.php:37
+msgid "Install an SSL certificate and force HTTPS for all requests (via the host or a redirect rule)."
+msgstr "安装 SSL 证书，并对所有请求强制使用 HTTPS（通过主机或跳转规则实现）。"
+
+#: includes/class-gpshm-check-docs.php:38
+msgid "Hosting control panel > SSL/TLS, or Settings > General (Site/WordPress Address)"
+msgstr "主机控制面板 > SSL/TLS，或 设置 > 常规（站点地址/WordPress 地址）"
+
+#: includes/class-gpshm-check-docs.php:41
+msgid "How many days remain before the SSL certificate expires."
+msgstr "距离 SSL 证书到期还剩多少天。"
+
+#: includes/class-gpshm-check-docs.php:42
+msgid "The certificate is nearing its expiry date and has not been renewed yet, or automatic renewal failed."
+msgstr "证书即将到期但尚未续期，或自动续期失败。"
+
+#: includes/class-gpshm-check-docs.php:43
+msgid "Renew the certificate before it expires, and confirm automatic renewal is active if the host supports it."
+msgstr "请在证书到期前续期，如果主机支持自动续期，请确认其已启用。"
+
+#: includes/class-gpshm-check-docs.php:44
+msgid "Hosting control panel > SSL/TLS"
+msgstr "主机控制面板 > SSL/TLS"
+
+#: includes/class-gpshm-check-docs.php:47
+msgid "Number of installed plugins with an available update."
+msgstr "有可用更新的已安装插件数量。"
+
+#: includes/class-gpshm-check-docs.php:48
+msgid "Plugin authors released newer versions that have not been installed yet."
+msgstr "插件作者发布了尚未安装的新版本。"
+
+#: includes/class-gpshm-check-docs.php:49
+msgid "Review and apply plugin updates, ideally on staging first for major version jumps."
+msgstr "请检查并应用插件更新，对于重大版本升级最好先在暂存环境中测试。"
+
+#: includes/class-gpshm-check-docs.php:50
+msgid "wp-admin > Plugins"
+msgstr "wp-admin > 插件"
+
+#: includes/class-gpshm-check-docs.php:53
+msgid "Number of installed themes with an available update."
+msgstr "有可用更新的已安装主题数量。"
+
+#: includes/class-gpshm-check-docs.php:54
+msgid "Theme authors released newer versions that have not been installed yet."
+msgstr "主题作者发布了尚未安装的新版本。"
+
+#: includes/class-gpshm-check-docs.php:55
+msgid "Review and apply theme updates, checking any customizations for compatibility first."
+msgstr "请检查并应用主题更新，并先确认任何自定义内容的兼容性。"
+
+#: includes/class-gpshm-check-docs.php:56
+msgid "wp-admin > Appearance > Themes"
+msgstr "wp-admin > 外观 > 主题"
+
+#: includes/class-gpshm-check-docs.php:59
+msgid "Free disk space on the server, compared against the configured warning threshold."
+msgstr "服务器上的可用磁盘空间，与所配置的警告阈值进行比较。"
+
+#: includes/class-gpshm-check-docs.php:60
+msgid "Media uploads, backups, logs or database growth have consumed most of the available storage."
+msgstr "媒体上传、备份、日志或数据库增长已占用了大部分可用存储空间。"
+
+#: includes/class-gpshm-check-docs.php:61
+msgid "Remove unused media/backups/logs, or upgrade the hosting storage plan."
+msgstr "请删除不再使用的媒体/备份/日志，或升级主机的存储套餐。"
+
+#: includes/class-gpshm-check-docs.php:62
+msgid "Hosting control panel > File Manager / Storage, or Settings > Disk space warning threshold"
+msgstr "主机控制面板 > 文件管理器 / 存储，或 设置 > 磁盘空间警告阈值"
+
+#: includes/class-gpshm-check-docs.php:65
+msgid "Whether scheduled WP-Cron events are running on time."
+msgstr "计划的 WP-Cron 事件是否按时运行。"
+
+#: includes/class-gpshm-check-docs.php:66
+msgid "The site has very low traffic (WP-Cron runs on page loads by default), or DISABLE_WP_CRON is set without a real system cron replacing it."
+msgstr "站点访问量很低（WP-Cron 默认在页面加载时运行），或设置了 DISABLE_WP_CRON 却没有真正的系统 cron 来替代它。"
+
+#: includes/class-gpshm-check-docs.php:67
+msgid "Set up a real system cron job calling wp-cron.php on a fixed interval instead of relying on page-load triggers."
+msgstr "请设置一个真正的系统计划任务，按固定间隔调用 wp-cron.php，而不是依赖页面加载来触发。"
+
+#: includes/class-gpshm-check-docs.php:68
+msgid "Hosting control panel > Cron Jobs, or wp-config.php"
+msgstr "主机控制面板 > 计划任务，或 wp-config.php"
+
+#: includes/class-gpshm-check-docs.php:71
+msgid "Whether debug.log exists and was modified recently, indicating active PHP errors or warnings."
+msgstr "debug.log 是否存在并且最近被修改过，这表明存在活跃的 PHP 错误或警告。"
+
+#: includes/class-gpshm-check-docs.php:72
+msgid "A plugin, theme or PHP version mismatch is triggering warnings, notices or errors on the site."
+msgstr "某个插件、主题或 PHP 版本不匹配正在站点上触发警告、提示或错误。"
+
+#: includes/class-gpshm-check-docs.php:73
+msgid "Open the Logs tab to read the recent entries and identify which file/line is generating them."
+msgstr "请打开“日志”标签页阅读近期记录，并确定是哪个文件/行产生了它们。"
+
+#: includes/class-gpshm-check-docs.php:74
+msgid "wp-content/debug.log"
+msgstr "wp-content/debug.log"
+
+#: includes/class-gpshm-check-docs.php:77
+msgid "Whether wp-config.php is writable by other users on the server (world-writable)."
+msgstr "服务器上的其他用户是否可以写入 wp-config.php（对所有人可写）。"
+
+#: includes/class-gpshm-check-docs.php:78
+msgid "File permissions were set too permissively (commonly 666 or 777) during an upload or a hosting misconfiguration."
+msgstr "在上传过程中或由于主机配置错误，文件权限被设置得过于宽松（通常为 666 或 777）。"
+
+#: includes/class-gpshm-check-docs.php:79
+msgid "Restrict wp-config.php permissions to 600 or 640 so only the owning user can write to it."
+msgstr "将 wp-config.php 的权限限制为 600 或 640，使其仅可由所属用户写入。"
+
+#: includes/class-gpshm-check-docs.php:80
+msgid "File manager or SSH/SFTP, in the site root (wp-config.php)"
+msgstr "文件管理器或 SSH/SFTP，位于站点根目录（wp-config.php）"
+
+#: includes/class-gpshm-check-docs.php:83
+msgid "Whether wp-content is writable, which WordPress needs for uploads, automatic updates and cache files."
+msgstr "wp-content 是否可写，这是 WordPress 进行上传、自动更新和缓存文件所必需的。"
+
+#: includes/class-gpshm-check-docs.php:84
+msgid "File ownership or permissions prevent the PHP process from writing to wp-content."
+msgstr "文件所有权或权限阻止了 PHP 进程写入 wp-content。"
+
+#: includes/class-gpshm-check-docs.php:85
+msgid "Set wp-content to 755 (directories) and confirm it is owned by the same user the web server runs as."
+msgstr "将 wp-content（目录）权限设置为 755，并确认其所有者与运行 Web 服务器的用户一致。"
+
+#: includes/class-gpshm-check-docs.php:86
+msgid "File manager or SSH/SFTP, in the site root (wp-content)"
+msgstr "文件管理器或 SSH/SFTP，位于站点根目录（wp-content）"
+
+#: includes/class-gpshm-check-docs.php:89
+msgid "Whether the database is reachable and the core WordPress tables exist."
+msgstr "数据库是否可访问，以及 WordPress 核心数据表是否存在。"
+
+#: includes/class-gpshm-check-docs.php:90
+msgid "Incorrect database credentials in wp-config.php, or the database server is down."
+msgstr "wp-config.php 中的数据库凭据不正确，或数据库服务器已宕机。"
+
+#: includes/class-gpshm-check-docs.php:91
+msgid "Verify DB_HOST/DB_NAME/DB_USER/DB_PASSWORD in wp-config.php and confirm the database server is running."
+msgstr "请检查 wp-config.php 中的 DB_HOST/DB_NAME/DB_USER/DB_PASSWORD，并确认数据库服务器正在运行。"
+
+#: includes/class-gpshm-check-docs.php:92
+msgid "wp-config.php, or hosting control panel > Databases"
+msgstr "wp-config.php，或主机控制面板 > 数据库"
+
+#: includes/class-gpshm-check-docs.php:95
+msgid "Whether a persistent object cache (Redis, Memcached, etc.) is active instead of the default per-request database cache."
+msgstr "是否启用了持久化对象缓存（如 Redis、Memcached 等）来替代默认的每请求数据库缓存。"
+
+#: includes/class-gpshm-check-docs.php:96
+msgid "No persistent object cache backend is installed or configured on this server."
+msgstr "此服务器上未安装或配置持久化对象缓存后端。"
+
+#: includes/class-gpshm-check-docs.php:97
+msgid "This is informational, not a defect: a persistent object cache can improve performance on busy sites but is optional."
+msgstr "这只是提示信息，并非缺陷：持久化对象缓存可以提升高流量站点的性能，但并非必需。"
+
+#: includes/class-gpshm-check-docs.php:98
+msgid "Hosting control panel (Redis/Memcached add-on) plus a compatible drop-in plugin"
+msgstr "主机控制面板（Redis/Memcached 附加组件）加上一个兼容的直插式插件"
+
+#: includes/class-gpshm-checks.php:174
+msgid "WordPress version"
+msgstr "WordPress 版本"
+
+#: includes/class-gpshm-checks.php:176
+msgid "%1$s (update to %2$s available)"
+msgstr "%1$s（有可用更新 %2$s）"
+
+#: includes/class-gpshm-checks.php:188
+msgid "PHP version"
+msgstr "PHP 版本"
+
+#: includes/class-gpshm-checks.php:198
+msgid "HTTPS (current request)"
+msgstr "HTTPS（当前请求）"
+
+#: includes/class-gpshm-checks.php:199
+msgid "Not active"
+msgstr "未启用"
+
+#: includes/class-gpshm-checks.php:219
+#: includes/class-gpshm-checks.php:226
+msgid "SSL certificate"
+msgstr "SSL 证书"
+
+#: includes/class-gpshm-checks.php:219
+msgid "Could not connect to verify."
+msgstr "无法连接以进行验证。"
+
+#: includes/class-gpshm-checks.php:226
+msgid "Unable to read certificate."
+msgstr "无法读取证书。"
+
+#: includes/class-gpshm-checks.php:244
+msgid "SSL certificate expiry"
+msgstr "SSL 证书到期时间"
+
+#: includes/class-gpshm-checks.php:246
+msgid "%d day left"
+msgid_plural "%d days left"
+msgstr[0] "剩余 %d 天"
+
+#: includes/class-gpshm-checks.php:247
+msgid "Expired"
+msgstr "已过期"
+
+#: includes/class-gpshm-checks.php:263
+msgid "Outdated plugins"
+msgstr "过时的插件"
+
+#: includes/class-gpshm-checks.php:279
+msgid "Outdated themes"
+msgstr "过时的主题"
+
+#: includes/class-gpshm-checks.php:291
+#: includes/class-gpshm-checks.php:296
+msgid "Free disk space"
+msgstr "可用磁盘空间"
+
+#: includes/class-gpshm-checks.php:291
+msgid "Unknown (disabled by host)"
+msgstr "未知（已被主机禁用）"
+
+#: includes/class-gpshm-checks.php:305
+msgid "WP-Cron"
+msgstr "WP-Cron"
+
+#: includes/class-gpshm-checks.php:305
+msgid "Disabled via DISABLE_WP_CRON (make sure a system cron calls wp-cron.php instead)."
+msgstr "已通过 DISABLE_WP_CRON 禁用（请确保由系统计划任务改为调用 wp-cron.php）。"
+
+#: includes/class-gpshm-checks.php:320
+msgid "WP-Cron scheduled events"
+msgstr "WP-Cron 计划事件"
+
+#: includes/class-gpshm-checks.php:323
+msgid "%d overdue event(s)"
+msgstr "%d 个事件已延迟"
+
+#: includes/class-gpshm-checks.php:324
+msgid "Running on schedule"
+msgstr "按计划运行中"
+
+#: includes/class-gpshm-checks.php:334
+msgid "No debug.log file found."
+msgstr "未找到 debug.log 文件。"
+
+#: includes/class-gpshm-checks.php:345
+msgid "debug.log present (%s)"
+msgstr "debug.log 已存在（%s）"
+
+#: includes/class-gpshm-checks.php:391
+msgid "wp-config.php permissions"
+msgstr "wp-config.php 权限"
+
+#: includes/class-gpshm-checks.php:400
+msgid "wp-content writable"
+msgstr "wp-content 可写"
+
+#: includes/class-gpshm-checks.php:401
+msgid "Yes"
+msgstr "是"
+
+#: includes/class-gpshm-checks.php:401
+msgid "No"
+msgstr "否"
+
+#: includes/class-gpshm-checks.php:418
+msgid "Database"
+msgstr "数据库"
+
+#: includes/class-gpshm-checks.php:420
+msgid "Connected (server %s)"
+msgstr "已连接（服务器 %s）"
+
+#: includes/class-gpshm-checks.php:421
+msgid "Core tables not found"
+msgstr "未找到核心数据表"
+
+#: includes/class-gpshm-checks.php:430
+msgid "Persistent object cache"
+msgstr "持久化对象缓存"
+
+#: includes/class-gpshm-checks.php:431
+msgid "Not active (default DB cache)"
+msgstr "未启用（默认数据库缓存）"
+
+#: includes/class-gpshm-checks.php:447
+msgid "Outbound connectivity (api.wordpress.org)"
+msgstr "出站连接（api.wordpress.org）"
+
+#: includes/class-gpshm-checks.php:448
+msgid "Reachable"
+msgstr "可访问"
+
+#: includes/class-gpshm-checks.php:448
+msgid "Unreachable - outgoing HTTP requests may be blocked on this server"
+msgstr "无法访问 - 此服务器上的出站 HTTP 请求可能被阻止"
+
+#: includes/class-gpshm-cron.php:34
+msgid "Once Weekly"
+msgstr "每周一次"
+
+#: includes/class-gpshm-rest-controller.php:142
+#: includes/class-gpshm-rest-controller.php:154
+msgid "Unknown check."
+msgstr "未知的检测项。"
+
+#: includes/class-gpshm-settings.php:35
+msgid "Every hour"
+msgstr "每小时"
+
+#: includes/class-gpshm-settings.php:36
+msgid "Twice a day"
+msgstr "每天两次"
+
+#: includes/class-gpshm-settings.php:37
+msgid "Once a day"
+msgstr "每天一次"
+
+#: includes/class-gpshm-settings.php:38
+msgid "Once a week"
+msgstr "每周一次"
+

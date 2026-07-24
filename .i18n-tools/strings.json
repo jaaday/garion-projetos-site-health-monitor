@@ -1,0 +1,2151 @@
+[
+  {
+    "msgid": "Monitoring",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:108",
+      "admin/class-gpshm-admin-page.php:897"
+    ]
+  },
+  {
+    "msgid": "Diagnostics",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:113"
+    ]
+  },
+  {
+    "msgid": "System",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:119"
+    ]
+  },
+  {
+    "msgid": "Run check now",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:273"
+    ]
+  },
+  {
+    "msgid": "Garion Projetos Site Health Monitor",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:28",
+      "admin/class-gpshm-admin-page.php:285"
+    ]
+  },
+  {
+    "msgid": "WordPress diagnostics dashboard: PHP, SSL, outdated plugins/themes, cron, disk space, database and connectivity status.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:287"
+    ]
+  },
+  {
+    "msgid": "Site Health Monitor",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:29"
+    ]
+  },
+  {
+    "msgid": "Unavailable",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:296"
+    ]
+  },
+  {
+    "msgid": "Excellent",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:299"
+    ]
+  },
+  {
+    "msgid": "Healthy",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:302"
+    ]
+  },
+  {
+    "msgid": "Needs attention",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:305"
+    ]
+  },
+  {
+    "msgid": "Critical",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:308",
+      "admin/class-gpshm-admin-page.php:777",
+      "admin/class-gpshm-admin-page.php:701",
+      "admin/class-gpshm-admin-page.php:788"
+    ]
+  },
+  {
+    "msgid": "Critical problems",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:388"
+    ]
+  },
+  {
+    "msgid": "%1$d of %2$d checks need immediate attention",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:392"
+    ]
+  },
+  {
+    "msgid": "No critical problems found",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:393"
+    ]
+  },
+  {
+    "msgid": "Warnings",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:398",
+      "admin/class-gpshm-admin-page.php:776",
+      "admin/class-gpshm-admin-page.php:787"
+    ]
+  },
+  {
+    "msgid": "%d checks reporting a warning",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:403"
+    ]
+  },
+  {
+    "msgid": "No warnings found",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:404"
+    ]
+  },
+  {
+    "msgid": "Healthy checks",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:409"
+    ]
+  },
+  {
+    "msgid": "%1$d of %2$d checks passing",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:412"
+    ]
+  },
+  {
+    "msgid": "Ignored",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:416"
+    ]
+  },
+  {
+    "msgid": "Excluded from the score until reopened",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:420"
+    ]
+  },
+  {
+    "msgid": "Nothing is currently ignored",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:421"
+    ]
+  },
+  {
+    "msgid": "Active in %1$d of the last %2$d recorded run.",
+    "msgid_plural": "Active in %1$d of the last %2$d recorded runs.",
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:510"
+    ]
+  },
+  {
+    "msgid": "Nothing to show here.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:524"
+    ]
+  },
+  {
+    "msgid": "Select",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:530",
+      "admin/class-gpshm-admin-page.php:568"
+    ]
+  },
+  {
+    "msgid": "Check",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:532",
+      "admin/class-gpshm-admin-page.php:572"
+    ]
+  },
+  {
+    "msgid": "Current result",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:533",
+      "admin/class-gpshm-admin-page.php:578"
+    ]
+  },
+  {
+    "msgid": "Severity",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:534",
+      "admin/class-gpshm-admin-page.php:579",
+      "admin/class-gpshm-admin-ui.php:448"
+    ]
+  },
+  {
+    "msgid": "Last checked",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:535",
+      "admin/class-gpshm-admin-page.php:593",
+      "admin/class-gpshm-admin-ui.php:452"
+    ]
+  },
+  {
+    "msgid": "Actions",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:536",
+      "admin/class-gpshm-admin-page.php:594",
+      "admin/class-gpshm-admin-ui.php:420"
+    ]
+  },
+  {
+    "msgid": "Running checks...",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:54"
+    ]
+  },
+  {
+    "msgid": "Check completed.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:55"
+    ]
+  },
+  {
+    "msgid": "The check could not be completed.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:56"
+    ]
+  },
+  {
+    "msgid": "Select %s",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:569"
+    ]
+  },
+  {
+    "msgid": "Ignore this check",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:57"
+    ]
+  },
+  {
+    "msgid": "This check will stop counting toward the health score and the Problems list until you reopen it. Optionally add a reason below.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:58"
+    ]
+  },
+  {
+    "msgid": "Reopened",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:582"
+    ]
+  },
+  {
+    "msgid": "New",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:585"
+    ]
+  },
+  {
+    "msgid": "Recurring",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:587"
+    ]
+  },
+  {
+    "msgid": "Confirm",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:59"
+    ]
+  },
+  {
+    "msgid": "Cancel",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:60"
+    ]
+  },
+  {
+    "msgid": "Check ignored.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:61"
+    ]
+  },
+  {
+    "msgid": "Ignored on %1$s — reason: %2$s",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:617"
+    ]
+  },
+  {
+    "msgid": "Ignored on %s, with no reason given.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:618"
+    ]
+  },
+  {
+    "msgid": "Check reopened.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:62"
+    ]
+  },
+  {
+    "msgid": "Reopened on %s.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:622"
+    ]
+  },
+  {
+    "msgid": "Undo",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:63"
+    ]
+  },
+  {
+    "msgid": "View details",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:632",
+      "admin/class-gpshm-admin-ui.php:193"
+    ]
+  },
+  {
+    "msgid": "View recommendation",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:639"
+    ]
+  },
+  {
+    "msgid": "Technical data copied to clipboard.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:64"
+    ]
+  },
+  {
+    "msgid": "Run this check again",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:646"
+    ]
+  },
+  {
+    "msgid": "Could not copy to clipboard.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:65"
+    ]
+  },
+  {
+    "msgid": "Copy technical data",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:652"
+    ]
+  },
+  {
+    "msgid": "Testing...",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:66"
+    ]
+  },
+  {
+    "msgid": "Reopen",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:660"
+    ]
+  },
+  {
+    "msgid": "Ignore temporarily",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:666"
+    ]
+  },
+  {
+    "msgid": "Reachable — responded with a valid status.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:67"
+    ]
+  },
+  {
+    "msgid": "Could not reach the endpoint.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:68"
+    ]
+  },
+  {
+    "msgid": "Every check currently reporting a warning or critical status, across all areas — search, filter, sort and act on them here.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:686"
+    ]
+  },
+  {
+    "msgid": "No problems match the current filters.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:69",
+      "admin/class-gpshm-admin-page.php:746"
+    ]
+  },
+  {
+    "msgid": "%d critical",
+    "msgid_plural": "%d critical",
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:690"
+    ]
+  },
+  {
+    "msgid": "%d warning",
+    "msgid_plural": "%d warnings",
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:691"
+    ]
+  },
+  {
+    "msgid": "Search problems",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:695"
+    ]
+  },
+  {
+    "msgid": "Search problems...",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:696"
+    ]
+  },
+  {
+    "msgid": "Filter by severity",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:698"
+    ]
+  },
+  {
+    "msgid": "Ignore all selected checks?",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:70"
+    ]
+  },
+  {
+    "msgid": "All severities",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:700"
+    ]
+  },
+  {
+    "msgid": "Warning",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:702"
+    ]
+  },
+  {
+    "msgid": "Filter by category",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:705"
+    ]
+  },
+  {
+    "msgid": "All categories",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:707"
+    ]
+  },
+  {
+    "msgid": "Reopen all selected checks?",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:71"
+    ]
+  },
+  {
+    "msgid": "Filter by status",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:714"
+    ]
+  },
+  {
+    "msgid": "Active and ignored",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:716"
+    ]
+  },
+  {
+    "msgid": "Active only",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:717"
+    ]
+  },
+  {
+    "msgid": "Ignored only",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:718"
+    ]
+  },
+  {
+    "msgid": "%d selected",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:72"
+    ]
+  },
+  {
+    "msgid": "Filter by period",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:721"
+    ]
+  },
+  {
+    "msgid": "Any time",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:723"
+    ]
+  },
+  {
+    "msgid": "Last 24 hours",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:724"
+    ]
+  },
+  {
+    "msgid": "Last 7 days",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:725"
+    ]
+  },
+  {
+    "msgid": "Last 30 days",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:726"
+    ]
+  },
+  {
+    "msgid": "Sort by",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:729"
+    ]
+  },
+  {
+    "msgid": "Saving...",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:73"
+    ]
+  },
+  {
+    "msgid": "Sort by priority",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:731"
+    ]
+  },
+  {
+    "msgid": "Sort by detection date",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:732"
+    ]
+  },
+  {
+    "msgid": "Clear filters",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:735"
+    ]
+  },
+  {
+    "msgid": "You have unsaved changes.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:74"
+    ]
+  },
+  {
+    "msgid": "Ignore selected",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:740"
+    ]
+  },
+  {
+    "msgid": "Reopen selected",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:741"
+    ]
+  },
+  {
+    "msgid": "Page %1$d of %2$d",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:75"
+    ]
+  },
+  {
+    "msgid": "No problems found.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:751"
+    ]
+  },
+  {
+    "msgid": "Every check is currently reporting a healthy status.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:751"
+    ]
+  },
+  {
+    "msgid": "A run is recorded here whenever the overall status changes, or at most once every 15 minutes.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:762"
+    ]
+  },
+  {
+    "msgid": "No history yet.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:766"
+    ]
+  },
+  {
+    "msgid": "History starts recording from the next check — either a normal page load, \"Run check now\", or an automatic background check if enabled in Settings.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:767"
+    ]
+  },
+  {
+    "msgid": "Date",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:772",
+      "admin/class-gpshm-admin-page.php:783"
+    ]
+  },
+  {
+    "msgid": "Status",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:773",
+      "admin/class-gpshm-admin-page.php:784"
+    ]
+  },
+  {
+    "msgid": "Score",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:774",
+      "admin/class-gpshm-admin-page.php:785"
+    ]
+  },
+  {
+    "msgid": "OK",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:775",
+      "admin/class-gpshm-admin-page.php:786"
+    ]
+  },
+  {
+    "msgid": "Recent PHP errors",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:812",
+      "includes/class-gpshm-checks.php:334",
+      "includes/class-gpshm-checks.php:342"
+    ]
+  },
+  {
+    "msgid": "Recent debug.log entries",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:817"
+    ]
+  },
+  {
+    "msgid": "No log entries to show.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:819"
+    ]
+  },
+  {
+    "msgid": "Either debug.log does not exist, or WP_DEBUG_LOG is not enabled.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:819"
+    ]
+  },
+  {
+    "msgid": "Checks",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:842"
+    ]
+  },
+  {
+    "msgid": "Thresholds used by the automated checks.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:842"
+    ]
+  },
+  {
+    "msgid": "Warn when SSL certificate expires within",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:848"
+    ]
+  },
+  {
+    "msgid": "days",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:851"
+    ]
+  },
+  {
+    "msgid": "Default: %d days.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:854"
+    ]
+  },
+  {
+    "msgid": "Warn when free disk space is below",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:860"
+    ]
+  },
+  {
+    "msgid": "MB",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:863"
+    ]
+  },
+  {
+    "msgid": "Default: %d MB.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:866"
+    ]
+  },
+  {
+    "msgid": "Warn when a scheduled cron event is overdue by",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:872"
+    ]
+  },
+  {
+    "msgid": "minutes",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:875"
+    ]
+  },
+  {
+    "msgid": "Default: %d minutes.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:878"
+    ]
+  },
+  {
+    "msgid": "History entries to keep",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:884"
+    ]
+  },
+  {
+    "msgid": "entries",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:887"
+    ]
+  },
+  {
+    "msgid": "Overview",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:89"
+    ]
+  },
+  {
+    "msgid": "Between 5 and 50 entries.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:890"
+    ]
+  },
+  {
+    "msgid": "Optional background checks via WP-Cron, independent of anyone loading this page.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:897"
+    ]
+  },
+  {
+    "msgid": "Problems",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:90",
+      "admin/class-gpshm-admin-page.php:685"
+    ]
+  },
+  {
+    "msgid": "Automatic monitoring",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:903"
+    ]
+  },
+  {
+    "msgid": "When enabled, checks also run in the background on the schedule below and are recorded to History.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:907"
+    ]
+  },
+  {
+    "msgid": "History",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:91",
+      "admin/class-gpshm-admin-page.php:762"
+    ]
+  },
+  {
+    "msgid": "Check frequency",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:913"
+    ]
+  },
+  {
+    "msgid": "How often the background check runs when automatic monitoring is enabled above.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:918"
+    ]
+  },
+  {
+    "msgid": "WordPress",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:92",
+      "admin/class-gpshm-admin-page.php:195"
+    ]
+  },
+  {
+    "msgid": "Restore defaults",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:927"
+    ]
+  },
+  {
+    "msgid": "Save changes",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:928"
+    ]
+  },
+  {
+    "msgid": "Security",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:93",
+      "admin/class-gpshm-admin-page.php:196"
+    ]
+  },
+  {
+    "msgid": "Performance",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:94",
+      "admin/class-gpshm-admin-page.php:197"
+    ]
+  },
+  {
+    "msgid": "Server",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:95",
+      "admin/class-gpshm-admin-page.php:198"
+    ]
+  },
+  {
+    "msgid": "Logs",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:96",
+      "admin/class-gpshm-admin-page.php:809",
+      "admin/class-gpshm-admin-page.php:711"
+    ]
+  },
+  {
+    "msgid": "Settings",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-page.php:97"
+    ]
+  },
+  {
+    "msgid": "Site Health Monitor sections",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:116"
+    ]
+  },
+  {
+    "msgid": "%1$d of %2$d checks need attention",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:184"
+    ]
+  },
+  {
+    "msgid": "All %d checks passing",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:185"
+    ]
+  },
+  {
+    "msgid": "Last checked: %s",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:224"
+    ]
+  },
+  {
+    "msgid": "Same score as the last recorded check",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:231"
+    ]
+  },
+  {
+    "msgid": "+%d points since the last recorded check",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:235"
+    ]
+  },
+  {
+    "msgid": "%d points since the last recorded check",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:239"
+    ]
+  },
+  {
+    "msgid": "First recorded check — no previous score to compare yet.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:244"
+    ]
+  },
+  {
+    "msgid": "%d check performed",
+    "msgid_plural": "%d checks performed",
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:250"
+    ]
+  },
+  {
+    "msgid": "Top problem: %s",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:259"
+    ]
+  },
+  {
+    "msgid": "View critical problems",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:267"
+    ]
+  },
+  {
+    "msgid": "No active problems right now.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:271"
+    ]
+  },
+  {
+    "msgid": "How is this score calculated?",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:284"
+    ]
+  },
+  {
+    "msgid": "This score is based on %d checks run at the time shown below.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:287"
+    ]
+  },
+  {
+    "msgid": "Each warning subtracts %1$d points; each critical problem subtracts %2$d points. Any critical problem caps the score at 49; any warning caps it at 89.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:293"
+    ]
+  },
+  {
+    "msgid": "Problems currently reducing the score:",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:301"
+    ]
+  },
+  {
+    "msgid": "No problems are currently reducing the score.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:307"
+    ]
+  },
+  {
+    "msgid": "%d ignored check is excluded from this calculation.",
+    "msgid_plural": "%d ignored checks are excluded from this calculation.",
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:311"
+    ]
+  },
+  {
+    "msgid": "Calculated as of: %s",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:314"
+    ]
+  },
+  {
+    "msgid": "Current value",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:447"
+    ]
+  },
+  {
+    "msgid": "Category",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:449"
+    ]
+  },
+  {
+    "msgid": "Technical key",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:450"
+    ]
+  },
+  {
+    "msgid": "What this check means",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:457"
+    ]
+  },
+  {
+    "msgid": "Likely cause",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:460"
+    ]
+  },
+  {
+    "msgid": "Recommendation",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:463"
+    ]
+  },
+  {
+    "msgid": "Likely fix location",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:466"
+    ]
+  },
+  {
+    "msgid": "Recent history",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:472"
+    ]
+  },
+  {
+    "msgid": "Previous",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:495"
+    ]
+  },
+  {
+    "msgid": "Next",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:496"
+    ]
+  },
+  {
+    "msgid": "Monitoring endpoint",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:564"
+    ]
+  },
+  {
+    "msgid": "Active",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:568",
+      "includes/class-gpshm-checks.php:199",
+      "includes/class-gpshm-checks.php:431"
+    ]
+  },
+  {
+    "msgid": "Copy URL",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:572"
+    ]
+  },
+  {
+    "msgid": "Test endpoint",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:573"
+    ]
+  },
+  {
+    "msgid": "This URL is public and unauthenticated by design — it only ever returns an overall ok/warning/critical status, never the detailed report, so it is safe to give to external uptime monitoring services.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "admin/class-gpshm-admin-ui.php:576"
+    ]
+  },
+  {
+    "msgid": "Whether the server can make outgoing HTTP requests to api.wordpress.org (used for core/plugin/theme update checks).",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:101"
+    ]
+  },
+  {
+    "msgid": "A server or network firewall is blocking outbound HTTP(S) requests.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:102"
+    ]
+  },
+  {
+    "msgid": "Ask your hosting provider to allow outbound HTTPS requests to wordpress.org domains; without it, update checks cannot run.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:103"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel > Firewall / Outbound rules",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:104"
+    ]
+  },
+  {
+    "msgid": "Whether WordPress core is on the latest available version.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:23"
+    ]
+  },
+  {
+    "msgid": "Automatic background updates are disabled, or a major update requires manual confirmation.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:24"
+    ]
+  },
+  {
+    "msgid": "Update WordPress from the Dashboard > Updates screen as soon as possible.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:25"
+    ]
+  },
+  {
+    "msgid": "wp-admin > Dashboard > Updates",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:26"
+    ]
+  },
+  {
+    "msgid": "Whether the server runs a PHP version still receiving security support.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:29"
+    ]
+  },
+  {
+    "msgid": "The hosting plan has not been upgraded to a newer PHP version.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:30"
+    ]
+  },
+  {
+    "msgid": "Ask your hosting provider to upgrade PHP, then test the site on a staging copy before switching production.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:31"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel > PHP version",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:32"
+    ]
+  },
+  {
+    "msgid": "Whether the current request reached the site over HTTPS.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:35"
+    ]
+  },
+  {
+    "msgid": "No SSL certificate is installed, or the site is not forcing HTTPS redirects.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:36"
+    ]
+  },
+  {
+    "msgid": "Install an SSL certificate and force HTTPS for all requests (via the host or a redirect rule).",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:37"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel > SSL/TLS, or Settings > General (Site/WordPress Address)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:38"
+    ]
+  },
+  {
+    "msgid": "How many days remain before the SSL certificate expires.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:41"
+    ]
+  },
+  {
+    "msgid": "The certificate is nearing its expiry date and has not been renewed yet, or automatic renewal failed.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:42"
+    ]
+  },
+  {
+    "msgid": "Renew the certificate before it expires, and confirm automatic renewal is active if the host supports it.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:43"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel > SSL/TLS",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:44"
+    ]
+  },
+  {
+    "msgid": "Number of installed plugins with an available update.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:47"
+    ]
+  },
+  {
+    "msgid": "Plugin authors released newer versions that have not been installed yet.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:48"
+    ]
+  },
+  {
+    "msgid": "Review and apply plugin updates, ideally on staging first for major version jumps.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:49"
+    ]
+  },
+  {
+    "msgid": "wp-admin > Plugins",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:50"
+    ]
+  },
+  {
+    "msgid": "Number of installed themes with an available update.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:53"
+    ]
+  },
+  {
+    "msgid": "Theme authors released newer versions that have not been installed yet.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:54"
+    ]
+  },
+  {
+    "msgid": "Review and apply theme updates, checking any customizations for compatibility first.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:55"
+    ]
+  },
+  {
+    "msgid": "wp-admin > Appearance > Themes",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:56"
+    ]
+  },
+  {
+    "msgid": "Free disk space on the server, compared against the configured warning threshold.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:59"
+    ]
+  },
+  {
+    "msgid": "Media uploads, backups, logs or database growth have consumed most of the available storage.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:60"
+    ]
+  },
+  {
+    "msgid": "Remove unused media/backups/logs, or upgrade the hosting storage plan.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:61"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel > File Manager / Storage, or Settings > Disk space warning threshold",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:62"
+    ]
+  },
+  {
+    "msgid": "Whether scheduled WP-Cron events are running on time.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:65"
+    ]
+  },
+  {
+    "msgid": "The site has very low traffic (WP-Cron runs on page loads by default), or DISABLE_WP_CRON is set without a real system cron replacing it.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:66"
+    ]
+  },
+  {
+    "msgid": "Set up a real system cron job calling wp-cron.php on a fixed interval instead of relying on page-load triggers.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:67"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel > Cron Jobs, or wp-config.php",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:68"
+    ]
+  },
+  {
+    "msgid": "Whether debug.log exists and was modified recently, indicating active PHP errors or warnings.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:71"
+    ]
+  },
+  {
+    "msgid": "A plugin, theme or PHP version mismatch is triggering warnings, notices or errors on the site.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:72"
+    ]
+  },
+  {
+    "msgid": "Open the Logs tab to read the recent entries and identify which file/line is generating them.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:73"
+    ]
+  },
+  {
+    "msgid": "wp-content/debug.log",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:74"
+    ]
+  },
+  {
+    "msgid": "Whether wp-config.php is writable by other users on the server (world-writable).",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:77"
+    ]
+  },
+  {
+    "msgid": "File permissions were set too permissively (commonly 666 or 777) during an upload or a hosting misconfiguration.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:78"
+    ]
+  },
+  {
+    "msgid": "Restrict wp-config.php permissions to 600 or 640 so only the owning user can write to it.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:79"
+    ]
+  },
+  {
+    "msgid": "File manager or SSH/SFTP, in the site root (wp-config.php)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:80"
+    ]
+  },
+  {
+    "msgid": "Whether wp-content is writable, which WordPress needs for uploads, automatic updates and cache files.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:83"
+    ]
+  },
+  {
+    "msgid": "File ownership or permissions prevent the PHP process from writing to wp-content.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:84"
+    ]
+  },
+  {
+    "msgid": "Set wp-content to 755 (directories) and confirm it is owned by the same user the web server runs as.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:85"
+    ]
+  },
+  {
+    "msgid": "File manager or SSH/SFTP, in the site root (wp-content)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:86"
+    ]
+  },
+  {
+    "msgid": "Whether the database is reachable and the core WordPress tables exist.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:89"
+    ]
+  },
+  {
+    "msgid": "Incorrect database credentials in wp-config.php, or the database server is down.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:90"
+    ]
+  },
+  {
+    "msgid": "Verify DB_HOST/DB_NAME/DB_USER/DB_PASSWORD in wp-config.php and confirm the database server is running.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:91"
+    ]
+  },
+  {
+    "msgid": "wp-config.php, or hosting control panel > Databases",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:92"
+    ]
+  },
+  {
+    "msgid": "Whether a persistent object cache (Redis, Memcached, etc.) is active instead of the default per-request database cache.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:95"
+    ]
+  },
+  {
+    "msgid": "No persistent object cache backend is installed or configured on this server.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:96"
+    ]
+  },
+  {
+    "msgid": "This is informational, not a defect: a persistent object cache can improve performance on busy sites but is optional.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:97"
+    ]
+  },
+  {
+    "msgid": "Hosting control panel (Redis/Memcached add-on) plus a compatible drop-in plugin",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-check-docs.php:98"
+    ]
+  },
+  {
+    "msgid": "WordPress version",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:174"
+    ]
+  },
+  {
+    "msgid": "%1$s (update to %2$s available)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:176"
+    ]
+  },
+  {
+    "msgid": "PHP version",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:188"
+    ]
+  },
+  {
+    "msgid": "HTTPS (current request)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:198"
+    ]
+  },
+  {
+    "msgid": "Not active",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:199"
+    ]
+  },
+  {
+    "msgid": "SSL certificate",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:219",
+      "includes/class-gpshm-checks.php:226"
+    ]
+  },
+  {
+    "msgid": "Could not connect to verify.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:219"
+    ]
+  },
+  {
+    "msgid": "Unable to read certificate.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:226"
+    ]
+  },
+  {
+    "msgid": "SSL certificate expiry",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:244"
+    ]
+  },
+  {
+    "msgid": "%d day left",
+    "msgid_plural": "%d days left",
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:246"
+    ]
+  },
+  {
+    "msgid": "Expired",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:247"
+    ]
+  },
+  {
+    "msgid": "Outdated plugins",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:263"
+    ]
+  },
+  {
+    "msgid": "Outdated themes",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:279"
+    ]
+  },
+  {
+    "msgid": "Free disk space",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:291",
+      "includes/class-gpshm-checks.php:296"
+    ]
+  },
+  {
+    "msgid": "Unknown (disabled by host)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:291"
+    ]
+  },
+  {
+    "msgid": "WP-Cron",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:305"
+    ]
+  },
+  {
+    "msgid": "Disabled via DISABLE_WP_CRON (make sure a system cron calls wp-cron.php instead).",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:305"
+    ]
+  },
+  {
+    "msgid": "WP-Cron scheduled events",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:320"
+    ]
+  },
+  {
+    "msgid": "%d overdue event(s)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:323"
+    ]
+  },
+  {
+    "msgid": "Running on schedule",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:324"
+    ]
+  },
+  {
+    "msgid": "No debug.log file found.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:334"
+    ]
+  },
+  {
+    "msgid": "debug.log present (%s)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:345"
+    ]
+  },
+  {
+    "msgid": "wp-config.php permissions",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:391"
+    ]
+  },
+  {
+    "msgid": "wp-content writable",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:400"
+    ]
+  },
+  {
+    "msgid": "Yes",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:401"
+    ]
+  },
+  {
+    "msgid": "No",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:401"
+    ]
+  },
+  {
+    "msgid": "Database",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:418"
+    ]
+  },
+  {
+    "msgid": "Connected (server %s)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:420"
+    ]
+  },
+  {
+    "msgid": "Core tables not found",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:421"
+    ]
+  },
+  {
+    "msgid": "Persistent object cache",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:430"
+    ]
+  },
+  {
+    "msgid": "Not active (default DB cache)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:431"
+    ]
+  },
+  {
+    "msgid": "Outbound connectivity (api.wordpress.org)",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:447"
+    ]
+  },
+  {
+    "msgid": "Reachable",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:448"
+    ]
+  },
+  {
+    "msgid": "Unreachable - outgoing HTTP requests may be blocked on this server",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-checks.php:448"
+    ]
+  },
+  {
+    "msgid": "Once Weekly",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-cron.php:34"
+    ]
+  },
+  {
+    "msgid": "Unknown check.",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-rest-controller.php:142",
+      "includes/class-gpshm-rest-controller.php:154"
+    ]
+  },
+  {
+    "msgid": "Every hour",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-settings.php:35"
+    ]
+  },
+  {
+    "msgid": "Twice a day",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-settings.php:36"
+    ]
+  },
+  {
+    "msgid": "Once a day",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-settings.php:37"
+    ]
+  },
+  {
+    "msgid": "Once a week",
+    "msgid_plural": null,
+    "context": null,
+    "locations": [
+      "includes/class-gpshm-settings.php:38"
+    ]
+  }
+]

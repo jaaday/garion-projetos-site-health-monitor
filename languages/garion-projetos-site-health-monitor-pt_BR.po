@@ -1,0 +1,1121 @@
+# Translation of Garion Projetos Site Health Monitor in pt_BR
+# This file is distributed under the same license as the Garion Projetos Site Health Monitor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Garion Projetos Site Health Monitor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-23 22:37+0000\n"
+"PO-Revision-Date: 2026-07-23 22:37+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: garion-projetos-site-health-monitor\n"
+
+#: admin/class-gpshm-admin-page.php:108
+#: admin/class-gpshm-admin-page.php:897
+msgid "Monitoring"
+msgstr "Monitoramento"
+
+#: admin/class-gpshm-admin-page.php:113
+msgid "Diagnostics"
+msgstr "Diagnóstico"
+
+#: admin/class-gpshm-admin-page.php:119
+msgid "System"
+msgstr "Sistema"
+
+#: admin/class-gpshm-admin-page.php:273
+msgid "Run check now"
+msgstr "Executar verificação"
+
+#: admin/class-gpshm-admin-page.php:28
+#: admin/class-gpshm-admin-page.php:285
+msgid "Garion Projetos Site Health Monitor"
+msgstr "Garion Projetos Site Health Monitor"
+
+#: admin/class-gpshm-admin-page.php:287
+msgid "WordPress diagnostics dashboard: PHP, SSL, outdated plugins/themes, cron, disk space, database and connectivity status."
+msgstr "Painel de diagnóstico do WordPress: PHP, SSL, plugins/temas desatualizados, cron, espaço em disco, banco de dados e conectividade."
+
+#: admin/class-gpshm-admin-page.php:29
+msgid "Site Health Monitor"
+msgstr "Site Health Monitor"
+
+#: admin/class-gpshm-admin-page.php:296
+msgid "Unavailable"
+msgstr "Indisponível"
+
+#: admin/class-gpshm-admin-page.php:299
+msgid "Excellent"
+msgstr "Excelente"
+
+#: admin/class-gpshm-admin-page.php:302
+msgid "Healthy"
+msgstr "Saudável"
+
+#: admin/class-gpshm-admin-page.php:305
+msgid "Needs attention"
+msgstr "Requer atenção"
+
+#: admin/class-gpshm-admin-page.php:308
+#: admin/class-gpshm-admin-page.php:777
+#: admin/class-gpshm-admin-page.php:701
+#: admin/class-gpshm-admin-page.php:788
+msgid "Critical"
+msgstr "Crítico"
+
+#: admin/class-gpshm-admin-page.php:388
+msgid "Critical problems"
+msgstr "Problemas críticos"
+
+#: admin/class-gpshm-admin-page.php:392
+msgid "%1$d of %2$d checks need immediate attention"
+msgstr "%1$d de %2$d verificações precisam de atenção imediata"
+
+#: admin/class-gpshm-admin-page.php:393
+msgid "No critical problems found"
+msgstr "Nenhum problema crítico encontrado"
+
+#: admin/class-gpshm-admin-page.php:398
+#: admin/class-gpshm-admin-page.php:776
+#: admin/class-gpshm-admin-page.php:787
+msgid "Warnings"
+msgstr "Avisos"
+
+#: admin/class-gpshm-admin-page.php:403
+msgid "%d checks reporting a warning"
+msgstr "%d verificações relatando um aviso"
+
+#: admin/class-gpshm-admin-page.php:404
+msgid "No warnings found"
+msgstr "Nenhum aviso encontrado"
+
+#: admin/class-gpshm-admin-page.php:409
+msgid "Healthy checks"
+msgstr "Verificações saudáveis"
+
+#: admin/class-gpshm-admin-page.php:412
+msgid "%1$d of %2$d checks passing"
+msgstr "%1$d de %2$d verificações aprovadas"
+
+#: admin/class-gpshm-admin-page.php:416
+msgid "Ignored"
+msgstr "Ignorados"
+
+#: admin/class-gpshm-admin-page.php:420
+msgid "Excluded from the score until reopened"
+msgstr "Excluído da pontuação até ser reaberto"
+
+#: admin/class-gpshm-admin-page.php:421
+msgid "Nothing is currently ignored"
+msgstr "Nada está ignorado no momento"
+
+#: admin/class-gpshm-admin-page.php:510
+msgid "Active in %1$d of the last %2$d recorded run."
+msgid_plural "Active in %1$d of the last %2$d recorded runs."
+msgstr[0] "Ativo em %1$d das últimas %2$d verificações registradas."
+msgstr[1] "Ativo em %1$d das últimas %2$d verificações registradas."
+
+#: admin/class-gpshm-admin-page.php:524
+msgid "Nothing to show here."
+msgstr "Nada para mostrar aqui."
+
+#: admin/class-gpshm-admin-page.php:530
+#: admin/class-gpshm-admin-page.php:568
+msgid "Select"
+msgstr "Selecionar"
+
+#: admin/class-gpshm-admin-page.php:532
+#: admin/class-gpshm-admin-page.php:572
+msgid "Check"
+msgstr "Verificação"
+
+#: admin/class-gpshm-admin-page.php:533
+#: admin/class-gpshm-admin-page.php:578
+msgid "Current result"
+msgstr "Resultado atual"
+
+#: admin/class-gpshm-admin-page.php:534
+#: admin/class-gpshm-admin-page.php:579
+#: admin/class-gpshm-admin-ui.php:448
+msgid "Severity"
+msgstr "Severidade"
+
+#: admin/class-gpshm-admin-page.php:535
+#: admin/class-gpshm-admin-page.php:593
+#: admin/class-gpshm-admin-ui.php:452
+msgid "Last checked"
+msgstr "Última verificação"
+
+#: admin/class-gpshm-admin-page.php:536
+#: admin/class-gpshm-admin-page.php:594
+#: admin/class-gpshm-admin-ui.php:420
+msgid "Actions"
+msgstr "Ações"
+
+#: admin/class-gpshm-admin-page.php:54
+msgid "Running checks..."
+msgstr "Executando verificações..."
+
+#: admin/class-gpshm-admin-page.php:55
+msgid "Check completed."
+msgstr "Verificação concluída."
+
+#: admin/class-gpshm-admin-page.php:56
+msgid "The check could not be completed."
+msgstr "Não foi possível concluir a verificação."
+
+#: admin/class-gpshm-admin-page.php:569
+msgid "Select %s"
+msgstr "Selecionar %s"
+
+#: admin/class-gpshm-admin-page.php:57
+msgid "Ignore this check"
+msgstr "Ignorar esta verificação"
+
+#: admin/class-gpshm-admin-page.php:58
+msgid "This check will stop counting toward the health score and the Problems list until you reopen it. Optionally add a reason below."
+msgstr "Esta verificação deixará de contar para a pontuação de saúde e para a lista de Problemas até que você a reabra. Opcionalmente, adicione um motivo abaixo."
+
+#: admin/class-gpshm-admin-page.php:582
+msgid "Reopened"
+msgstr "Reaberto"
+
+#: admin/class-gpshm-admin-page.php:585
+msgid "New"
+msgstr "Novo"
+
+#: admin/class-gpshm-admin-page.php:587
+msgid "Recurring"
+msgstr "Recorrente"
+
+#: admin/class-gpshm-admin-page.php:59
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: admin/class-gpshm-admin-page.php:60
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/class-gpshm-admin-page.php:61
+msgid "Check ignored."
+msgstr "Verificação ignorada."
+
+#: admin/class-gpshm-admin-page.php:617
+msgid "Ignored on %1$s — reason: %2$s"
+msgstr "Ignorado em %1$s — motivo: %2$s"
+
+#: admin/class-gpshm-admin-page.php:618
+msgid "Ignored on %s, with no reason given."
+msgstr "Ignorado em %s, sem motivo informado."
+
+#: admin/class-gpshm-admin-page.php:62
+msgid "Check reopened."
+msgstr "Verificação reaberta."
+
+#: admin/class-gpshm-admin-page.php:622
+msgid "Reopened on %s."
+msgstr "Reaberto em %s."
+
+#: admin/class-gpshm-admin-page.php:63
+msgid "Undo"
+msgstr "Desfazer"
+
+#: admin/class-gpshm-admin-page.php:632
+#: admin/class-gpshm-admin-ui.php:193
+msgid "View details"
+msgstr "Ver detalhes"
+
+#: admin/class-gpshm-admin-page.php:639
+msgid "View recommendation"
+msgstr "Ver recomendação"
+
+#: admin/class-gpshm-admin-page.php:64
+msgid "Technical data copied to clipboard."
+msgstr "Dados técnicos copiados para a área de transferência."
+
+#: admin/class-gpshm-admin-page.php:646
+msgid "Run this check again"
+msgstr "Executar verificação novamente"
+
+#: admin/class-gpshm-admin-page.php:65
+msgid "Could not copy to clipboard."
+msgstr "Não foi possível copiar para a área de transferência."
+
+#: admin/class-gpshm-admin-page.php:652
+msgid "Copy technical data"
+msgstr "Copiar dados técnicos"
+
+#: admin/class-gpshm-admin-page.php:66
+msgid "Testing..."
+msgstr "Testando..."
+
+#: admin/class-gpshm-admin-page.php:660
+msgid "Reopen"
+msgstr "Reabrir"
+
+#: admin/class-gpshm-admin-page.php:666
+msgid "Ignore temporarily"
+msgstr "Ignorar temporariamente"
+
+#: admin/class-gpshm-admin-page.php:67
+msgid "Reachable — responded with a valid status."
+msgstr "Acessível — respondeu com um status válido."
+
+#: admin/class-gpshm-admin-page.php:68
+msgid "Could not reach the endpoint."
+msgstr "Não foi possível acessar o endpoint."
+
+#: admin/class-gpshm-admin-page.php:686
+msgid "Every check currently reporting a warning or critical status, across all areas — search, filter, sort and act on them here."
+msgstr "Todas as verificações que estão relatando aviso ou status crítico, em todas as áreas — pesquise, filtre, ordene e aja sobre elas aqui."
+
+#: admin/class-gpshm-admin-page.php:69
+#: admin/class-gpshm-admin-page.php:746
+msgid "No problems match the current filters."
+msgstr "Nenhum problema corresponde aos filtros atuais."
+
+#: admin/class-gpshm-admin-page.php:690
+msgid "%d critical"
+msgid_plural "%d critical"
+msgstr[0] "%d crítico"
+msgstr[1] "%d críticos"
+
+#: admin/class-gpshm-admin-page.php:691
+msgid "%d warning"
+msgid_plural "%d warnings"
+msgstr[0] "%d aviso"
+msgstr[1] "%d avisos"
+
+#: admin/class-gpshm-admin-page.php:695
+msgid "Search problems"
+msgstr "Pesquisar problemas"
+
+#: admin/class-gpshm-admin-page.php:696
+msgid "Search problems..."
+msgstr "Pesquisar problemas..."
+
+#: admin/class-gpshm-admin-page.php:698
+msgid "Filter by severity"
+msgstr "Filtrar por severidade"
+
+#: admin/class-gpshm-admin-page.php:70
+msgid "Ignore all selected checks?"
+msgstr "Ignorar todas as verificações selecionadas?"
+
+#: admin/class-gpshm-admin-page.php:700
+msgid "All severities"
+msgstr "Todas as severidades"
+
+#: admin/class-gpshm-admin-page.php:702
+msgid "Warning"
+msgstr "Aviso"
+
+#: admin/class-gpshm-admin-page.php:705
+msgid "Filter by category"
+msgstr "Filtrar por categoria"
+
+#: admin/class-gpshm-admin-page.php:707
+msgid "All categories"
+msgstr "Todas as categorias"
+
+#: admin/class-gpshm-admin-page.php:71
+msgid "Reopen all selected checks?"
+msgstr "Reabrir todas as verificações selecionadas?"
+
+#: admin/class-gpshm-admin-page.php:714
+msgid "Filter by status"
+msgstr "Filtrar por status"
+
+#: admin/class-gpshm-admin-page.php:716
+msgid "Active and ignored"
+msgstr "Ativos e ignorados"
+
+#: admin/class-gpshm-admin-page.php:717
+msgid "Active only"
+msgstr "Somente ativos"
+
+#: admin/class-gpshm-admin-page.php:718
+msgid "Ignored only"
+msgstr "Somente ignorados"
+
+#: admin/class-gpshm-admin-page.php:72
+msgid "%d selected"
+msgstr "%d selecionado(s)"
+
+#: admin/class-gpshm-admin-page.php:721
+msgid "Filter by period"
+msgstr "Filtrar por período"
+
+#: admin/class-gpshm-admin-page.php:723
+msgid "Any time"
+msgstr "Qualquer período"
+
+#: admin/class-gpshm-admin-page.php:724
+msgid "Last 24 hours"
+msgstr "Últimas 24 horas"
+
+#: admin/class-gpshm-admin-page.php:725
+msgid "Last 7 days"
+msgstr "Últimos 7 dias"
+
+#: admin/class-gpshm-admin-page.php:726
+msgid "Last 30 days"
+msgstr "Últimos 30 dias"
+
+#: admin/class-gpshm-admin-page.php:729
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: admin/class-gpshm-admin-page.php:73
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: admin/class-gpshm-admin-page.php:731
+msgid "Sort by priority"
+msgstr "Ordenar por prioridade"
+
+#: admin/class-gpshm-admin-page.php:732
+msgid "Sort by detection date"
+msgstr "Ordenar por data de detecção"
+
+#: admin/class-gpshm-admin-page.php:735
+msgid "Clear filters"
+msgstr "Limpar filtros"
+
+#: admin/class-gpshm-admin-page.php:74
+msgid "You have unsaved changes."
+msgstr "Você tem alterações não salvas."
+
+#: admin/class-gpshm-admin-page.php:740
+msgid "Ignore selected"
+msgstr "Ignorar selecionados"
+
+#: admin/class-gpshm-admin-page.php:741
+msgid "Reopen selected"
+msgstr "Reabrir selecionados"
+
+#: admin/class-gpshm-admin-page.php:75
+msgid "Page %1$d of %2$d"
+msgstr "Página %1$d de %2$d"
+
+#: admin/class-gpshm-admin-page.php:751
+msgid "No problems found."
+msgstr "Nenhum problema encontrado."
+
+#: admin/class-gpshm-admin-page.php:751
+msgid "Every check is currently reporting a healthy status."
+msgstr "Todas as verificações estão relatando um status saudável no momento."
+
+#: admin/class-gpshm-admin-page.php:762
+msgid "A run is recorded here whenever the overall status changes, or at most once every 15 minutes."
+msgstr "Uma execução é registrada aqui sempre que o status geral muda, ou no máximo a cada 15 minutos."
+
+#: admin/class-gpshm-admin-page.php:766
+msgid "No history yet."
+msgstr "Ainda não há histórico."
+
+#: admin/class-gpshm-admin-page.php:767
+msgid "History starts recording from the next check — either a normal page load, \"Run check now\", or an automatic background check if enabled in Settings."
+msgstr "O histórico começa a ser registrado a partir da próxima verificação — seja um carregamento normal da página, \"Executar verificação\", ou uma verificação automática em segundo plano se habilitada em Configurações."
+
+#: admin/class-gpshm-admin-page.php:772
+#: admin/class-gpshm-admin-page.php:783
+msgid "Date"
+msgstr "Data"
+
+#: admin/class-gpshm-admin-page.php:773
+#: admin/class-gpshm-admin-page.php:784
+msgid "Status"
+msgstr "Status"
+
+#: admin/class-gpshm-admin-page.php:774
+#: admin/class-gpshm-admin-page.php:785
+msgid "Score"
+msgstr "Pontuação"
+
+#: admin/class-gpshm-admin-page.php:775
+#: admin/class-gpshm-admin-page.php:786
+msgid "OK"
+msgstr "OK"
+
+#: admin/class-gpshm-admin-page.php:812
+#: includes/class-gpshm-checks.php:334
+#: includes/class-gpshm-checks.php:342
+msgid "Recent PHP errors"
+msgstr "Erros recentes do PHP"
+
+#: admin/class-gpshm-admin-page.php:817
+msgid "Recent debug.log entries"
+msgstr "Entradas recentes do debug.log"
+
+#: admin/class-gpshm-admin-page.php:819
+msgid "No log entries to show."
+msgstr "Nenhuma entrada de log para mostrar."
+
+#: admin/class-gpshm-admin-page.php:819
+msgid "Either debug.log does not exist, or WP_DEBUG_LOG is not enabled."
+msgstr "O debug.log não existe, ou o WP_DEBUG_LOG não está habilitado."
+
+#: admin/class-gpshm-admin-page.php:842
+msgid "Checks"
+msgstr "Verificações"
+
+#: admin/class-gpshm-admin-page.php:842
+msgid "Thresholds used by the automated checks."
+msgstr "Limiares usados pelas verificações automatizadas."
+
+#: admin/class-gpshm-admin-page.php:848
+msgid "Warn when SSL certificate expires within"
+msgstr "Avisar quando o certificado SSL expirar em até"
+
+#: admin/class-gpshm-admin-page.php:851
+msgid "days"
+msgstr "dias"
+
+#: admin/class-gpshm-admin-page.php:854
+msgid "Default: %d days."
+msgstr "Padrão: %d dias."
+
+#: admin/class-gpshm-admin-page.php:860
+msgid "Warn when free disk space is below"
+msgstr "Avisar quando o espaço livre em disco estiver abaixo de"
+
+#: admin/class-gpshm-admin-page.php:863
+msgid "MB"
+msgstr "MB"
+
+#: admin/class-gpshm-admin-page.php:866
+msgid "Default: %d MB."
+msgstr "Padrão: %d MB."
+
+#: admin/class-gpshm-admin-page.php:872
+msgid "Warn when a scheduled cron event is overdue by"
+msgstr "Avisar quando um evento agendado do cron estiver atrasado em"
+
+#: admin/class-gpshm-admin-page.php:875
+msgid "minutes"
+msgstr "minutos"
+
+#: admin/class-gpshm-admin-page.php:878
+msgid "Default: %d minutes."
+msgstr "Padrão: %d minutos."
+
+#: admin/class-gpshm-admin-page.php:884
+msgid "History entries to keep"
+msgstr "Entradas de histórico a manter"
+
+#: admin/class-gpshm-admin-page.php:887
+msgid "entries"
+msgstr "registros"
+
+#: admin/class-gpshm-admin-page.php:89
+msgid "Overview"
+msgstr "Visão geral"
+
+#: admin/class-gpshm-admin-page.php:890
+msgid "Between 5 and 50 entries."
+msgstr "Entre 5 e 50 registros."
+
+#: admin/class-gpshm-admin-page.php:897
+msgid "Optional background checks via WP-Cron, independent of anyone loading this page."
+msgstr "Verificações opcionais em segundo plano via WP-Cron, independentemente de alguém carregar esta página."
+
+#: admin/class-gpshm-admin-page.php:90
+#: admin/class-gpshm-admin-page.php:685
+msgid "Problems"
+msgstr "Problemas"
+
+#: admin/class-gpshm-admin-page.php:903
+msgid "Automatic monitoring"
+msgstr "Monitoramento automático"
+
+#: admin/class-gpshm-admin-page.php:907
+msgid "When enabled, checks also run in the background on the schedule below and are recorded to History."
+msgstr "Quando habilitado, as verificações também rodam em segundo plano na frequência abaixo e são registradas no Histórico."
+
+#: admin/class-gpshm-admin-page.php:91
+#: admin/class-gpshm-admin-page.php:762
+msgid "History"
+msgstr "Histórico"
+
+#: admin/class-gpshm-admin-page.php:913
+msgid "Check frequency"
+msgstr "Frequência das verificações"
+
+#: admin/class-gpshm-admin-page.php:918
+msgid "How often the background check runs when automatic monitoring is enabled above."
+msgstr "Com que frequência a verificação em segundo plano roda quando o monitoramento automático acima está habilitado."
+
+#: admin/class-gpshm-admin-page.php:92
+#: admin/class-gpshm-admin-page.php:195
+msgid "WordPress"
+msgstr "WordPress"
+
+#: admin/class-gpshm-admin-page.php:927
+msgid "Restore defaults"
+msgstr "Restaurar padrões"
+
+#: admin/class-gpshm-admin-page.php:928
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: admin/class-gpshm-admin-page.php:93
+#: admin/class-gpshm-admin-page.php:196
+msgid "Security"
+msgstr "Segurança"
+
+#: admin/class-gpshm-admin-page.php:94
+#: admin/class-gpshm-admin-page.php:197
+msgid "Performance"
+msgstr "Desempenho"
+
+#: admin/class-gpshm-admin-page.php:95
+#: admin/class-gpshm-admin-page.php:198
+msgid "Server"
+msgstr "Servidor"
+
+#: admin/class-gpshm-admin-page.php:96
+#: admin/class-gpshm-admin-page.php:809
+#: admin/class-gpshm-admin-page.php:711
+msgid "Logs"
+msgstr "Logs"
+
+#: admin/class-gpshm-admin-page.php:97
+msgid "Settings"
+msgstr "Configurações"
+
+#: admin/class-gpshm-admin-ui.php:116
+msgid "Site Health Monitor sections"
+msgstr "Seções do Site Health Monitor"
+
+#: admin/class-gpshm-admin-ui.php:184
+msgid "%1$d of %2$d checks need attention"
+msgstr "%1$d de %2$d verificações requerem atenção"
+
+#: admin/class-gpshm-admin-ui.php:185
+msgid "All %d checks passing"
+msgstr "Todas as %d verificações aprovadas"
+
+#: admin/class-gpshm-admin-ui.php:224
+msgid "Last checked: %s"
+msgstr "Última verificação: %s"
+
+#: admin/class-gpshm-admin-ui.php:231
+msgid "Same score as the last recorded check"
+msgstr "Mesma pontuação da última verificação registrada"
+
+#: admin/class-gpshm-admin-ui.php:235
+msgid "+%d points since the last recorded check"
+msgstr "+%d pontos desde a última verificação registrada"
+
+#: admin/class-gpshm-admin-ui.php:239
+msgid "%d points since the last recorded check"
+msgstr "%d pontos desde a última verificação registrada"
+
+#: admin/class-gpshm-admin-ui.php:244
+msgid "First recorded check — no previous score to compare yet."
+msgstr "Primeira verificação registrada — ainda não há pontuação anterior para comparar."
+
+#: admin/class-gpshm-admin-ui.php:250
+msgid "%d check performed"
+msgid_plural "%d checks performed"
+msgstr[0] "%d verificação realizada"
+msgstr[1] "%d verificações realizadas"
+
+#: admin/class-gpshm-admin-ui.php:259
+msgid "Top problem: %s"
+msgstr "Principal problema: %s"
+
+#: admin/class-gpshm-admin-ui.php:267
+msgid "View critical problems"
+msgstr "Ver problemas críticos"
+
+#: admin/class-gpshm-admin-ui.php:271
+msgid "No active problems right now."
+msgstr "Nenhum problema ativo no momento."
+
+#: admin/class-gpshm-admin-ui.php:284
+msgid "How is this score calculated?"
+msgstr "Como esta pontuação é calculada?"
+
+#: admin/class-gpshm-admin-ui.php:287
+msgid "This score is based on %d checks run at the time shown below."
+msgstr "Esta pontuação é baseada em %d verificações executadas no momento indicado abaixo."
+
+#: admin/class-gpshm-admin-ui.php:293
+msgid "Each warning subtracts %1$d points; each critical problem subtracts %2$d points. Any critical problem caps the score at 49; any warning caps it at 89."
+msgstr "Cada aviso subtrai %1$d pontos; cada problema crítico subtrai %2$d pontos. Qualquer problema crítico limita a pontuação a 49; qualquer aviso limita a 89."
+
+#: admin/class-gpshm-admin-ui.php:301
+msgid "Problems currently reducing the score:"
+msgstr "Problemas que estão reduzindo a pontuação atualmente:"
+
+#: admin/class-gpshm-admin-ui.php:307
+msgid "No problems are currently reducing the score."
+msgstr "Nenhum problema está reduzindo a pontuação no momento."
+
+#: admin/class-gpshm-admin-ui.php:311
+msgid "%d ignored check is excluded from this calculation."
+msgid_plural "%d ignored checks are excluded from this calculation."
+msgstr[0] "%d verificação ignorada está excluída deste cálculo."
+msgstr[1] "%d verificações ignoradas estão excluídas deste cálculo."
+
+#: admin/class-gpshm-admin-ui.php:314
+msgid "Calculated as of: %s"
+msgstr "Calculado em: %s"
+
+#: admin/class-gpshm-admin-ui.php:447
+msgid "Current value"
+msgstr "Valor atual"
+
+#: admin/class-gpshm-admin-ui.php:449
+msgid "Category"
+msgstr "Categoria"
+
+#: admin/class-gpshm-admin-ui.php:450
+msgid "Technical key"
+msgstr "Identificador técnico"
+
+#: admin/class-gpshm-admin-ui.php:457
+msgid "What this check means"
+msgstr "O que esta verificação significa"
+
+#: admin/class-gpshm-admin-ui.php:460
+msgid "Likely cause"
+msgstr "Causa provável"
+
+#: admin/class-gpshm-admin-ui.php:463
+msgid "Recommendation"
+msgstr "Recomendação"
+
+#: admin/class-gpshm-admin-ui.php:466
+msgid "Likely fix location"
+msgstr "Local provável da correção"
+
+#: admin/class-gpshm-admin-ui.php:472
+msgid "Recent history"
+msgstr "Histórico recente"
+
+#: admin/class-gpshm-admin-ui.php:495
+msgid "Previous"
+msgstr "Anterior"
+
+#: admin/class-gpshm-admin-ui.php:496
+msgid "Next"
+msgstr "Próximo"
+
+#: admin/class-gpshm-admin-ui.php:564
+msgid "Monitoring endpoint"
+msgstr "Endpoint de monitoramento"
+
+#: admin/class-gpshm-admin-ui.php:568
+#: includes/class-gpshm-checks.php:199
+#: includes/class-gpshm-checks.php:431
+msgid "Active"
+msgstr "Ativo"
+
+#: admin/class-gpshm-admin-ui.php:572
+msgid "Copy URL"
+msgstr "Copiar URL"
+
+#: admin/class-gpshm-admin-ui.php:573
+msgid "Test endpoint"
+msgstr "Testar endpoint"
+
+#: admin/class-gpshm-admin-ui.php:576
+msgid "This URL is public and unauthenticated by design — it only ever returns an overall ok/warning/critical status, never the detailed report, so it is safe to give to external uptime monitoring services."
+msgstr "Esta URL é pública e não autenticada por design — ela sempre retorna apenas um status geral ok/aviso/crítico, nunca o relatório detalhado, por isso é segura para fornecer a serviços externos de monitoramento de disponibilidade."
+
+#: includes/class-gpshm-check-docs.php:101
+msgid "Whether the server can make outgoing HTTP requests to api.wordpress.org (used for core/plugin/theme update checks)."
+msgstr "Se o servidor consegue fazer requisições HTTP de saída para api.wordpress.org (usado nas verificações de atualização de núcleo/plugins/temas)."
+
+#: includes/class-gpshm-check-docs.php:102
+msgid "A server or network firewall is blocking outbound HTTP(S) requests."
+msgstr "Um firewall do servidor ou da rede está bloqueando requisições HTTP(S) de saída."
+
+#: includes/class-gpshm-check-docs.php:103
+msgid "Ask your hosting provider to allow outbound HTTPS requests to wordpress.org domains; without it, update checks cannot run."
+msgstr "Peça à sua hospedagem para permitir requisições HTTPS de saída para domínios wordpress.org; sem isso, as verificações de atualização não funcionam."
+
+#: includes/class-gpshm-check-docs.php:104
+msgid "Hosting control panel > Firewall / Outbound rules"
+msgstr "Painel de controle da hospedagem > Firewall / Regras de saída"
+
+#: includes/class-gpshm-check-docs.php:23
+msgid "Whether WordPress core is on the latest available version."
+msgstr "Se o núcleo do WordPress está na versão mais recente disponível."
+
+#: includes/class-gpshm-check-docs.php:24
+msgid "Automatic background updates are disabled, or a major update requires manual confirmation."
+msgstr "As atualizações automáticas em segundo plano estão desativadas, ou uma atualização importante requer confirmação manual."
+
+#: includes/class-gpshm-check-docs.php:25
+msgid "Update WordPress from the Dashboard > Updates screen as soon as possible."
+msgstr "Atualize o WordPress na tela Painel > Atualizações assim que possível."
+
+#: includes/class-gpshm-check-docs.php:26
+msgid "wp-admin > Dashboard > Updates"
+msgstr "wp-admin > Painel > Atualizações"
+
+#: includes/class-gpshm-check-docs.php:29
+msgid "Whether the server runs a PHP version still receiving security support."
+msgstr "Se o servidor roda uma versão do PHP que ainda recebe suporte de segurança."
+
+#: includes/class-gpshm-check-docs.php:30
+msgid "The hosting plan has not been upgraded to a newer PHP version."
+msgstr "O plano de hospedagem não foi atualizado para uma versão mais nova do PHP."
+
+#: includes/class-gpshm-check-docs.php:31
+msgid "Ask your hosting provider to upgrade PHP, then test the site on a staging copy before switching production."
+msgstr "Peça à sua hospedagem para atualizar o PHP e teste o site em uma cópia de homologação antes de trocar em produção."
+
+#: includes/class-gpshm-check-docs.php:32
+msgid "Hosting control panel > PHP version"
+msgstr "Painel de controle da hospedagem > Versão do PHP"
+
+#: includes/class-gpshm-check-docs.php:35
+msgid "Whether the current request reached the site over HTTPS."
+msgstr "Se a requisição atual chegou ao site via HTTPS."
+
+#: includes/class-gpshm-check-docs.php:36
+msgid "No SSL certificate is installed, or the site is not forcing HTTPS redirects."
+msgstr "Nenhum certificado SSL está instalado, ou o site não está forçando redirecionamento para HTTPS."
+
+#: includes/class-gpshm-check-docs.php:37
+msgid "Install an SSL certificate and force HTTPS for all requests (via the host or a redirect rule)."
+msgstr "Instale um certificado SSL e force HTTPS em todas as requisições (via hospedagem ou uma regra de redirecionamento)."
+
+#: includes/class-gpshm-check-docs.php:38
+msgid "Hosting control panel > SSL/TLS, or Settings > General (Site/WordPress Address)"
+msgstr "Painel de controle da hospedagem > SSL/TLS, ou Configurações > Geral (Endereço do site/WordPress)"
+
+#: includes/class-gpshm-check-docs.php:41
+msgid "How many days remain before the SSL certificate expires."
+msgstr "Quantos dias restam até o certificado SSL expirar."
+
+#: includes/class-gpshm-check-docs.php:42
+msgid "The certificate is nearing its expiry date and has not been renewed yet, or automatic renewal failed."
+msgstr "O certificado está próximo da data de expiração e ainda não foi renovado, ou a renovação automática falhou."
+
+#: includes/class-gpshm-check-docs.php:43
+msgid "Renew the certificate before it expires, and confirm automatic renewal is active if the host supports it."
+msgstr "Renove o certificado antes que expire e confirme se a renovação automática está ativa, caso a hospedagem ofereça suporte."
+
+#: includes/class-gpshm-check-docs.php:44
+msgid "Hosting control panel > SSL/TLS"
+msgstr "Painel de controle da hospedagem > SSL/TLS"
+
+#: includes/class-gpshm-check-docs.php:47
+msgid "Number of installed plugins with an available update."
+msgstr "Número de plugins instalados com atualização disponível."
+
+#: includes/class-gpshm-check-docs.php:48
+msgid "Plugin authors released newer versions that have not been installed yet."
+msgstr "Os autores dos plugins lançaram versões mais novas que ainda não foram instaladas."
+
+#: includes/class-gpshm-check-docs.php:49
+msgid "Review and apply plugin updates, ideally on staging first for major version jumps."
+msgstr "Revise e aplique as atualizações dos plugins, idealmente em homologação primeiro para saltos de versão maiores."
+
+#: includes/class-gpshm-check-docs.php:50
+msgid "wp-admin > Plugins"
+msgstr "wp-admin > Plugins"
+
+#: includes/class-gpshm-check-docs.php:53
+msgid "Number of installed themes with an available update."
+msgstr "Número de temas instalados com atualização disponível."
+
+#: includes/class-gpshm-check-docs.php:54
+msgid "Theme authors released newer versions that have not been installed yet."
+msgstr "Os autores dos temas lançaram versões mais novas que ainda não foram instaladas."
+
+#: includes/class-gpshm-check-docs.php:55
+msgid "Review and apply theme updates, checking any customizations for compatibility first."
+msgstr "Revise e aplique as atualizações dos temas, verificando primeiro a compatibilidade de eventuais personalizações."
+
+#: includes/class-gpshm-check-docs.php:56
+msgid "wp-admin > Appearance > Themes"
+msgstr "wp-admin > Aparência > Temas"
+
+#: includes/class-gpshm-check-docs.php:59
+msgid "Free disk space on the server, compared against the configured warning threshold."
+msgstr "Espaço livre em disco no servidor, comparado com o limiar de aviso configurado."
+
+#: includes/class-gpshm-check-docs.php:60
+msgid "Media uploads, backups, logs or database growth have consumed most of the available storage."
+msgstr "Uploads de mídia, backups, logs ou o crescimento do banco de dados consumiram a maior parte do armazenamento disponível."
+
+#: includes/class-gpshm-check-docs.php:61
+msgid "Remove unused media/backups/logs, or upgrade the hosting storage plan."
+msgstr "Remova mídias/backups/logs não utilizados, ou faça upgrade do plano de armazenamento da hospedagem."
+
+#: includes/class-gpshm-check-docs.php:62
+msgid "Hosting control panel > File Manager / Storage, or Settings > Disk space warning threshold"
+msgstr "Painel de controle da hospedagem > Gerenciador de arquivos / Armazenamento, ou Configurações > Limiar de aviso de espaço em disco"
+
+#: includes/class-gpshm-check-docs.php:65
+msgid "Whether scheduled WP-Cron events are running on time."
+msgstr "Se os eventos agendados do WP-Cron estão sendo executados no horário."
+
+#: includes/class-gpshm-check-docs.php:66
+msgid "The site has very low traffic (WP-Cron runs on page loads by default), or DISABLE_WP_CRON is set without a real system cron replacing it."
+msgstr "O site tem tráfego muito baixo (o WP-Cron roda a cada carregamento de página por padrão), ou o DISABLE_WP_CRON está definido sem um cron de sistema real no lugar."
+
+#: includes/class-gpshm-check-docs.php:67
+msgid "Set up a real system cron job calling wp-cron.php on a fixed interval instead of relying on page-load triggers."
+msgstr "Configure uma tarefa cron real do sistema chamando wp-cron.php em um intervalo fixo, em vez de depender de carregamentos de página."
+
+#: includes/class-gpshm-check-docs.php:68
+msgid "Hosting control panel > Cron Jobs, or wp-config.php"
+msgstr "Painel de controle da hospedagem > Tarefas Cron, ou wp-config.php"
+
+#: includes/class-gpshm-check-docs.php:71
+msgid "Whether debug.log exists and was modified recently, indicating active PHP errors or warnings."
+msgstr "Se o debug.log existe e foi modificado recentemente, indicando erros ou avisos ativos do PHP."
+
+#: includes/class-gpshm-check-docs.php:72
+msgid "A plugin, theme or PHP version mismatch is triggering warnings, notices or errors on the site."
+msgstr "Um plugin, tema ou incompatibilidade de versão do PHP está gerando avisos, notices ou erros no site."
+
+#: includes/class-gpshm-check-docs.php:73
+msgid "Open the Logs tab to read the recent entries and identify which file/line is generating them."
+msgstr "Abra a aba Logs para ler as entradas recentes e identificar qual arquivo/linha está gerando-as."
+
+#: includes/class-gpshm-check-docs.php:74
+msgid "wp-content/debug.log"
+msgstr "wp-content/debug.log"
+
+#: includes/class-gpshm-check-docs.php:77
+msgid "Whether wp-config.php is writable by other users on the server (world-writable)."
+msgstr "Se o wp-config.php pode ser gravado por outros usuários no servidor (gravável por todos)."
+
+#: includes/class-gpshm-check-docs.php:78
+msgid "File permissions were set too permissively (commonly 666 or 777) during an upload or a hosting misconfiguration."
+msgstr "As permissões de arquivo foram definidas de forma muito permissiva (comumente 666 ou 777) durante um upload ou uma configuração incorreta da hospedagem."
+
+#: includes/class-gpshm-check-docs.php:79
+msgid "Restrict wp-config.php permissions to 600 or 640 so only the owning user can write to it."
+msgstr "Restrinja as permissões do wp-config.php para 600 ou 640, para que somente o usuário proprietário possa gravar nele."
+
+#: includes/class-gpshm-check-docs.php:80
+msgid "File manager or SSH/SFTP, in the site root (wp-config.php)"
+msgstr "Gerenciador de arquivos ou SSH/SFTP, na raiz do site (wp-config.php)"
+
+#: includes/class-gpshm-check-docs.php:83
+msgid "Whether wp-content is writable, which WordPress needs for uploads, automatic updates and cache files."
+msgstr "Se o wp-content é gravável, o que o WordPress precisa para uploads, atualizações automáticas e arquivos de cache."
+
+#: includes/class-gpshm-check-docs.php:84
+msgid "File ownership or permissions prevent the PHP process from writing to wp-content."
+msgstr "A propriedade ou as permissões do arquivo impedem que o processo PHP grave no wp-content."
+
+#: includes/class-gpshm-check-docs.php:85
+msgid "Set wp-content to 755 (directories) and confirm it is owned by the same user the web server runs as."
+msgstr "Defina o wp-content como 755 (diretórios) e confirme que pertence ao mesmo usuário sob o qual o servidor web roda."
+
+#: includes/class-gpshm-check-docs.php:86
+msgid "File manager or SSH/SFTP, in the site root (wp-content)"
+msgstr "Gerenciador de arquivos ou SSH/SFTP, na raiz do site (wp-content)"
+
+#: includes/class-gpshm-check-docs.php:89
+msgid "Whether the database is reachable and the core WordPress tables exist."
+msgstr "Se o banco de dados está acessível e as tabelas principais do WordPress existem."
+
+#: includes/class-gpshm-check-docs.php:90
+msgid "Incorrect database credentials in wp-config.php, or the database server is down."
+msgstr "Credenciais de banco de dados incorretas no wp-config.php, ou o servidor de banco de dados está fora do ar."
+
+#: includes/class-gpshm-check-docs.php:91
+msgid "Verify DB_HOST/DB_NAME/DB_USER/DB_PASSWORD in wp-config.php and confirm the database server is running."
+msgstr "Verifique DB_HOST/DB_NAME/DB_USER/DB_PASSWORD no wp-config.php e confirme que o servidor de banco de dados está em execução."
+
+#: includes/class-gpshm-check-docs.php:92
+msgid "wp-config.php, or hosting control panel > Databases"
+msgstr "wp-config.php, ou painel de controle da hospedagem > Bancos de dados"
+
+#: includes/class-gpshm-check-docs.php:95
+msgid "Whether a persistent object cache (Redis, Memcached, etc.) is active instead of the default per-request database cache."
+msgstr "Se um cache de objetos persistente (Redis, Memcached etc.) está ativo em vez do cache padrão do banco de dados por requisição."
+
+#: includes/class-gpshm-check-docs.php:96
+msgid "No persistent object cache backend is installed or configured on this server."
+msgstr "Nenhum backend de cache de objetos persistente está instalado ou configurado neste servidor."
+
+#: includes/class-gpshm-check-docs.php:97
+msgid "This is informational, not a defect: a persistent object cache can improve performance on busy sites but is optional."
+msgstr "Isto é apenas informativo, não um defeito: um cache de objetos persistente pode melhorar o desempenho em sites com muito tráfego, mas é opcional."
+
+#: includes/class-gpshm-check-docs.php:98
+msgid "Hosting control panel (Redis/Memcached add-on) plus a compatible drop-in plugin"
+msgstr "Painel de controle da hospedagem (complemento Redis/Memcached) mais um plugin drop-in compatível"
+
+#: includes/class-gpshm-checks.php:174
+msgid "WordPress version"
+msgstr "Versão do WordPress"
+
+#: includes/class-gpshm-checks.php:176
+msgid "%1$s (update to %2$s available)"
+msgstr "%1$s (atualização para %2$s disponível)"
+
+#: includes/class-gpshm-checks.php:188
+msgid "PHP version"
+msgstr "Versão do PHP"
+
+#: includes/class-gpshm-checks.php:198
+msgid "HTTPS (current request)"
+msgstr "HTTPS (requisição atual)"
+
+#: includes/class-gpshm-checks.php:199
+msgid "Not active"
+msgstr "Não ativo"
+
+#: includes/class-gpshm-checks.php:219
+#: includes/class-gpshm-checks.php:226
+msgid "SSL certificate"
+msgstr "Certificado SSL"
+
+#: includes/class-gpshm-checks.php:219
+msgid "Could not connect to verify."
+msgstr "Não foi possível conectar para verificar."
+
+#: includes/class-gpshm-checks.php:226
+msgid "Unable to read certificate."
+msgstr "Não foi possível ler o certificado."
+
+#: includes/class-gpshm-checks.php:244
+msgid "SSL certificate expiry"
+msgstr "Validade do certificado SSL"
+
+#: includes/class-gpshm-checks.php:246
+msgid "%d day left"
+msgid_plural "%d days left"
+msgstr[0] "%d dia restante"
+msgstr[1] "%d dias restantes"
+
+#: includes/class-gpshm-checks.php:247
+msgid "Expired"
+msgstr "Expirado"
+
+#: includes/class-gpshm-checks.php:263
+msgid "Outdated plugins"
+msgstr "Plugins desatualizados"
+
+#: includes/class-gpshm-checks.php:279
+msgid "Outdated themes"
+msgstr "Temas desatualizados"
+
+#: includes/class-gpshm-checks.php:291
+#: includes/class-gpshm-checks.php:296
+msgid "Free disk space"
+msgstr "Espaço livre em disco"
+
+#: includes/class-gpshm-checks.php:291
+msgid "Unknown (disabled by host)"
+msgstr "Desconhecido (desativado pela hospedagem)"
+
+#: includes/class-gpshm-checks.php:305
+msgid "WP-Cron"
+msgstr "WP-Cron"
+
+#: includes/class-gpshm-checks.php:305
+msgid "Disabled via DISABLE_WP_CRON (make sure a system cron calls wp-cron.php instead)."
+msgstr "Desativado via DISABLE_WP_CRON (garanta que um cron de sistema chame o wp-cron.php no lugar)."
+
+#: includes/class-gpshm-checks.php:320
+msgid "WP-Cron scheduled events"
+msgstr "Eventos agendados do WP-Cron"
+
+#: includes/class-gpshm-checks.php:323
+msgid "%d overdue event(s)"
+msgstr "%d evento(s) atrasado(s)"
+
+#: includes/class-gpshm-checks.php:324
+msgid "Running on schedule"
+msgstr "Executando conforme agendado"
+
+#: includes/class-gpshm-checks.php:334
+msgid "No debug.log file found."
+msgstr "Nenhum arquivo debug.log encontrado."
+
+#: includes/class-gpshm-checks.php:345
+msgid "debug.log present (%s)"
+msgstr "debug.log presente (%s)"
+
+#: includes/class-gpshm-checks.php:391
+msgid "wp-config.php permissions"
+msgstr "Permissões do wp-config.php"
+
+#: includes/class-gpshm-checks.php:400
+msgid "wp-content writable"
+msgstr "wp-content gravável"
+
+#: includes/class-gpshm-checks.php:401
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/class-gpshm-checks.php:401
+msgid "No"
+msgstr "Não"
+
+#: includes/class-gpshm-checks.php:418
+msgid "Database"
+msgstr "Banco de dados"
+
+#: includes/class-gpshm-checks.php:420
+msgid "Connected (server %s)"
+msgstr "Conectado (servidor %s)"
+
+#: includes/class-gpshm-checks.php:421
+msgid "Core tables not found"
+msgstr "Tabelas principais não encontradas"
+
+#: includes/class-gpshm-checks.php:430
+msgid "Persistent object cache"
+msgstr "Cache de objetos persistente"
+
+#: includes/class-gpshm-checks.php:431
+msgid "Not active (default DB cache)"
+msgstr "Não ativo (cache padrão do banco de dados)"
+
+#: includes/class-gpshm-checks.php:447
+msgid "Outbound connectivity (api.wordpress.org)"
+msgstr "Conectividade de saída (api.wordpress.org)"
+
+#: includes/class-gpshm-checks.php:448
+msgid "Reachable"
+msgstr "Acessível"
+
+#: includes/class-gpshm-checks.php:448
+msgid "Unreachable - outgoing HTTP requests may be blocked on this server"
+msgstr "Inacessível - requisições HTTP de saída podem estar bloqueadas neste servidor"
+
+#: includes/class-gpshm-cron.php:34
+msgid "Once Weekly"
+msgstr "Uma vez por semana"
+
+#: includes/class-gpshm-rest-controller.php:142
+#: includes/class-gpshm-rest-controller.php:154
+msgid "Unknown check."
+msgstr "Verificação desconhecida."
+
+#: includes/class-gpshm-settings.php:35
+msgid "Every hour"
+msgstr "A cada hora"
+
+#: includes/class-gpshm-settings.php:36
+msgid "Twice a day"
+msgstr "Duas vezes ao dia"
+
+#: includes/class-gpshm-settings.php:37
+msgid "Once a day"
+msgstr "Uma vez ao dia"
+
+#: includes/class-gpshm-settings.php:38
+msgid "Once a week"
+msgstr "Uma vez por semana"
+
